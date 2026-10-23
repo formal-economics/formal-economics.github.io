@@ -86,14 +86,14 @@
   },
   {
    "id": "menu-property-1",
-   "name": "Menu preferences: monotonicity under disjoint union (Property 1)",
+   "name": "Menu preferences: monotonicity under disjoint union",
    "definedIn": [
     "ZFVR"
    ]
   },
   {
    "id": "menu-property-2",
-   "name": "Menu preferences: adding a best or worst singleton (Property 2)",
+   "name": "Menu preferences: adding a best or worst singleton",
    "definedIn": [
     "ZFVR"
    ]
@@ -162,7 +162,7 @@
   },
   {
    "id": "extended-preference",
-   "name": "Extended preference (preference with a 'much better' relation)",
+   "name": "Extended preference (preference with a ‘much better’ relation)",
    "symbol": "(\\succsim, \\succ\\!\\succ)",
    "definedIn": [
     "1AB2"
@@ -177,7 +177,7 @@
   },
   {
    "id": "approximately-the-same",
-   "name": "'Approximately the same' relation (S-1 to S-6)",
+   "name": "‘Approximately the same’ relation",
    "symbol": "S",
    "definedIn": [
     "7CFH"
@@ -504,7 +504,7 @@
   },
   {
    "id": "luce-choice-axiom",
-   "name": "Luce's choice axiom (path independence of probabilities)",
+   "name": "Luce’s choice axiom (path independence of probabilities)",
    "symbol": "\\mathrm{PI}",
    "definedIn": [
     "JRQQ"
@@ -845,7 +845,7 @@
   },
   {
    "id": "walras-law",
-   "name": "Walras' law (demand exhausts wealth)",
+   "name": "Walras’ law (demand exhausts wealth)",
    "symbol": "p \\cdot x = w",
    "definedIn": [
     "9A46"
@@ -898,7 +898,7 @@
   },
   {
    "id": "consistent-with-maximizing",
-   "name": "Demand consistent with maximizing a preference (bare maximality)",
+   "name": "Demand consistent with maximizing a preference",
    "definedIn": [
     "WFXS"
    ]
@@ -955,7 +955,7 @@
   },
   {
    "id": "strict-concavity-preference",
-   "name": "Strict 'concavity' of a preference (two goods)",
+   "name": "Strict ‘concavity’ of a preference (two goods)",
    "definedIn": [
     "XPXN"
    ]
@@ -1152,7 +1152,7 @@
   },
   {
    "id": "profit-maximization",
-   "name": "Producer's problem, profit function and supply function",
+   "name": "Producer’s problem, profit function and supply function",
    "symbol": "\\pi(p),\\ z(p)",
    "definedIn": [
     "Z39X"
@@ -1311,7 +1311,7 @@
   },
   {
    "id": "schedule",
-   "name": "Schedule of a day's activities",
+   "name": "Schedule of a day’s activities",
    "definedIn": [
     "RPWH"
    ]
@@ -1482,7 +1482,7 @@
   },
   {
    "id": "pointwise-probability-weighting",
-   "name": "Weighting each prize's own probability",
+   "name": "Weighting each prize’s own probability",
    "definedIn": [
     "CXGA"
    ]
@@ -1599,7 +1599,7 @@
   },
   {
    "id": "dictatorial-scf",
-   "name": "Dictatorial SCF (always picks one individual's best alternative)",
+   "name": "Dictatorial SCF (always picks one individual’s best alternative)",
    "definedIn": [
     "61EJ"
    ]
@@ -1627,7 +1627,7 @@
   },
   {
    "id": "choice-dictatorship",
-   "name": "Choice dictatorship (always one individual's best element of the menu)",
+   "name": "Choice dictatorship (always one individual’s best element of the menu)",
    "definedIn": [
     "61EJ"
    ]
@@ -1924,14 +1924,14 @@
   },
   {
    "id": "pure-nash-equilibrium",
-   "name": "Pure-strategy Nash equilibrium (the exam's three-player game)",
+   "name": "Pure-strategy Nash equilibrium",
    "definedIn": [
     "B2RW"
    ]
   },
   {
    "id": "belief-system",
-   "name": "Belief system (the exam's extensive game)",
+   "name": "Belief system",
    "symbol": "\\mu",
    "definedIn": [
     "B2RW"
@@ -1939,21 +1939,21 @@
   },
   {
    "id": "weak-perfect-bayesian-equilibrium",
-   "name": "Weak perfect Bayesian equilibrium (the exam's extensive game)",
+   "name": "Weak perfect Bayesian equilibrium",
    "definedIn": [
     "B2RW"
    ]
   },
   {
    "id": "sequential-equilibrium",
-   "name": "Sequential equilibrium (the exam's extensive game)",
+   "name": "Sequential equilibrium",
    "definedIn": [
     "B2RW"
    ]
   },
   {
    "id": "first-best-contract",
-   "name": "First-best contract under observable effort (the exam's sales agents)",
+   "name": "First-best contract under observable effort",
    "definedIn": [
     "C249"
    ]
@@ -2070,7 +2070,7 @@
   },
   {
    "id": "roy-identity",
-   "name": "Roy's identity",
+   "name": "Roy’s identity",
    "symbol": "x_k = -\\frac{\\partial v/\\partial p_k}{\\partial v/\\partial w}",
    "definedIn": [
     "AWMW"
@@ -2165,7 +2165,7 @@
   },
   {
    "id": "hotelling-lemma",
-   "name": "Hotelling's lemma",
+   "name": "Hotelling’s lemma",
    "symbol": "\\partial \\pi / \\partial p_k = z_k",
    "definedIn": [
     "D14X"
@@ -2173,7 +2173,7 @@
   },
   {
    "id": "shephard-lemma",
-   "name": "Shephard's lemma (cost function)",
+   "name": "Shephard’s lemma (cost function)",
    "symbol": "\\partial C / \\partial w_k = a_k",
    "definedIn": [
     "P3TG"
@@ -2306,7 +2306,7 @@
   },
   {
    "id": "strict-concavity-off-diagonal",
-   "name": "Strict 'concavity' of a preference, for distinct bundles (two goods)",
+   "name": "Strict ‘concavity’ of a preference, for distinct bundles (two goods)",
    "definedIn": [
     "XPXN"
    ]
@@ -2770,6 +2770,7 @@
    ],
    "to": "condition-alpha",
    "type": "not-implies",
+   "conditions": "choice functions on an arbitrary domain",
    "evidence": "XDK6",
    "url": "https://formal-economics.github.io/e/XDK6/#part-c"
   },
@@ -2798,6 +2799,7 @@
    ],
    "to": "path-independence-closed",
    "type": "not-implies",
+   "conditions": "an arbitrary domain",
    "evidence": "XDK6",
    "url": "https://formal-economics.github.io/e/XDK6/#part-a"
   },
@@ -2985,7 +2987,7 @@
    ],
    "to": "luce-representation",
    "type": "implies",
-   "conditions": "probabilistic choice functions normalized on every nonempty menu (added)",
+   "conditions": "probabilistic choice functions normalized on every nonempty menu (the nonempty-menu condition is added)",
    "evidence": "JRQQ",
    "url": "https://formal-economics.github.io/e/JRQQ/"
   },
@@ -2995,7 +2997,7 @@
    ],
    "to": "luce-choice-axiom",
    "type": "not-implies",
-   "conditions": "probabilistic choice functions normalized on every nonempty menu (added)",
+   "conditions": "probabilistic choice functions normalized on every nonempty menu (the nonempty-menu condition is added)",
    "evidence": "JRQQ",
    "url": "https://formal-economics.github.io/e/JRQQ/"
   },
@@ -3057,7 +3059,7 @@
    ],
    "to": "concave-utility-representation",
    "type": "not-implies",
-   "conditions": "$X = \\mathbb{R}$; the witness is $x \\succsim y \\iff x \\ge y \\text{ or } y \\le 0$, not the printed example, which is not continuous",
+   "conditions": "$X = \\mathbb{R}$; the witness is $x \\succsim y \\iff x \\ge y \\text{ or } y \\le 0$",
    "evidence": "1P2B",
    "url": "https://formal-economics.github.io/e/1P2B/"
   },
@@ -3208,7 +3210,7 @@
    ],
    "to": "flat-indifference-sets",
    "type": "equivalent",
-   "conditions": "$\\succsim$ monotone, convex and differentiable on $\\mathbb{R}^K_+$",
+   "conditions": "$\\succsim$ monotone, convex and differentiable on $\\mathbb{R}^K_+$; (*) carries a full-step feasibility condition $x + d \\in X$ (added)",
    "evidence": "BWAT",
    "url": "https://formal-economics.github.io/e/BWAT/#part-b"
   },
@@ -3231,7 +3233,7 @@
    ],
    "to": "continuity-real-line",
    "type": "not-implies",
-   "conditions": "$X = \\mathbb{R}$; differentiability with the value function's printed codomain $\\mathbb{R}^K_+$ dropped; under the printed codomain the witness is not differentiable",
+   "conditions": "$X = \\mathbb{R}$; differentiability with the value function's codomain $\\mathbb{R}^K_+$ dropped",
    "evidence": "QH53",
    "url": "https://formal-economics.github.io/e/QH53/"
   },
@@ -3818,7 +3820,7 @@
    ],
    "to": "concave-vnm-utility",
    "type": "equivalent",
-   "conditions": "$Z \\subseteq \\mathbb{R}$ convex; $\\succsim$ on $L(Z)$ represented by $\\mathrm{E}u$ (added)",
+   "conditions": "$Z \\subseteq \\mathbb{R}$ convex; $\\succsim$ on $L(Z)$ represented by $\\mathrm{E}u$ (convexity of $Z$ added)",
    "evidence": "CQGJ",
    "url": "https://formal-economics.github.io/e/CQGJ/"
   },
@@ -3860,7 +3862,7 @@
    ],
    "to": "cara-utility",
    "type": "implies",
-   "conditions": "$Z = \\mathbb{R}$ (added); $\\succsim$ represented by $\\mathrm{E}u$",
+   "conditions": "$Z = \\mathbb{R}$ (the prize space is added); $\\succsim$ represented by $\\mathrm{E}u$",
    "evidence": "HEXC",
    "url": "https://formal-economics.github.io/e/HEXC/"
   },
@@ -3870,7 +3872,7 @@
    ],
    "to": "monotonicity",
    "type": "implies",
-   "conditions": "$K > 0$ assets with independent returns positive with probability 1; utility of wealth strictly increasing and concave (added)",
+   "conditions": "$K > 0$ assets with independent returns positive with probability 1; utility of wealth strictly increasing and concave ($0 < K$ added)",
    "evidence": "ASDQ",
    "url": "https://formal-economics.github.io/e/ASDQ/#part-i"
   },
@@ -3984,7 +3986,7 @@
    ],
    "to": "dictatorial",
    "type": "implies",
-   "conditions": "finitely many individuals; at least three alternatives and strong positive association in place of the printed 'monotonicity' (added)",
+   "conditions": "finitely many individuals; at least three alternatives and strong positive association (added)",
    "evidence": "61EJ",
    "url": "https://formal-economics.github.io/e/61EJ/#part-ms"
   },
@@ -3995,6 +3997,7 @@
    ],
    "to": "dictatorial",
    "type": "not-implies",
+   "conditions": "two alternatives and three individuals",
    "evidence": "61EJ",
    "url": "https://formal-economics.github.io/e/61EJ/#part-ms"
   },
@@ -4015,7 +4018,7 @@
    ],
    "to": "dictatorial-scf",
    "type": "not-implies",
-   "conditions": "any X with at least two alternatives (added)",
+   "conditions": "any X with at least two alternatives (added); no onto condition",
    "evidence": "61EJ",
    "url": "https://formal-economics.github.io/e/61EJ/#part-gs"
   },
@@ -4537,7 +4540,7 @@
    ],
    "to": "fully-rationalizable-demand",
    "type": "implies",
-   "conditions": "$v$ continuous and strictly concave; only at selections that are the unique maximizers of $v$ over the feasible set (added)",
+   "conditions": "$v$ continuous and strictly concave; only at selections that are the unique maximizers of $v$ over the feasible set (restriction added)",
    "evidence": "06XS",
    "url": "https://formal-economics.github.io/e/06XS/#part-a"
   },
@@ -4547,7 +4550,7 @@
    ],
    "to": "continuously-rationalizable-demand",
    "type": "not-implies",
-   "conditions": "some continuous, strictly concave $v$ on $\\mathbb{R}_+$ and aspiration level $v^*$ ($K = 2$); rationalization required only at selections that are the unique maximizers (added)",
+   "conditions": "some continuous, strictly concave $v$ on $\\mathbb{R}_+$ and aspiration level $v^*$ ($K = 2$); rationalization required only at selections that are the unique maximizers (restriction added)",
    "evidence": "06XS",
    "url": "https://formal-economics.github.io/e/06XS/#part-b"
   },
@@ -4557,7 +4560,7 @@
    ],
    "to": "differentiably-rationalizable-demand",
    "type": "not-implies",
-   "conditions": "some continuous, strictly concave $v$ on $\\mathbb{R}_+$ and aspiration level $v^*$ ($K = 2$); rationalization required only at selections that are the unique maximizers (added)",
+   "conditions": "some continuous, strictly concave $v$ on $\\mathbb{R}_+$ and aspiration level $v^*$ ($K = 2$); rationalization required only at selections that are the unique maximizers (restriction added)",
    "evidence": "06XS",
    "url": "https://formal-economics.github.io/e/06XS/#part-c"
   },
@@ -4599,6 +4602,7 @@
    ],
    "to": "path-independence-reading",
    "type": "not-implies",
+   "conditions": "an arbitrary domain",
    "evidence": "XDK6",
    "url": "https://formal-economics.github.io/e/XDK6/#part-a"
   },
@@ -4638,7 +4642,7 @@
    ],
    "to": "condition-alpha",
    "type": "not-implies",
-   "conditions": "choice functions",
+   "conditions": "choice functions; an arbitrary domain",
    "evidence": "XDK6",
    "url": "https://formal-economics.github.io/e/XDK6/#part-c"
   },
@@ -5003,7 +5007,7 @@
    ],
    "to": "psi-convexity-interior",
    "type": "implies",
-   "conditions": "$X = \\mathbb{R}^K_+$ with $K \\ge 1$ (added); at every bundle with all coordinates positive (added)",
+   "conditions": "$X = \\mathbb{R}^K_+$ with $K \\ge 1$ (added); at every bundle with all coordinates positive (restriction added)",
    "evidence": "NPWN",
    "url": "https://formal-economics.github.io/e/NPWN/"
   },
@@ -5047,7 +5051,7 @@
    ],
    "to": "negated-improvements-worsen",
    "type": "implies",
-   "conditions": "$X = \\mathbb{R}^K_+$; at bundles with all coordinates positive (added)",
+   "conditions": "$X = \\mathbb{R}^K_+$; at bundles with all coordinates positive (restriction added)",
    "evidence": "BWAT",
    "url": "https://formal-economics.github.io/e/BWAT/#part-c1"
   },
