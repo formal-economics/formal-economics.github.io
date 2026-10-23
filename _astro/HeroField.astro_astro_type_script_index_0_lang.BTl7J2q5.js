@@ -1,1 +1,0 @@
-import{initHeroField as o}from"./hero-field.R0Ma3ZGn.js";const r=()=>{document.querySelectorAll("[data-hero-field]").forEach(e=>{if(!e.dataset.renderer)try{o(e)||(e.dataset.renderer="none")}catch{e.dataset.renderer="none"}})},t=window;t.requestIdleCallback?t.requestIdleCallback(r,{timeout:250}):setTimeout(r,40);

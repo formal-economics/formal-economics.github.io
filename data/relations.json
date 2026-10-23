@@ -1,0 +1,5287 @@
+{
+ "name": "Formal Economics: what implies what",
+ "description": "Machine-checked relations between notions of economic theory. type: implies, equivalent or not-implies; evidence: the tag of the entry that proves it (for not-implies, the counterexample).",
+ "edition": "2026-10-18",
+ "notions": [
+  {
+   "id": "preference-relation",
+   "name": "Preference relation",
+   "symbol": "\\succsim",
+   "definedIn": [
+    "Z06F"
+   ]
+  },
+  {
+   "id": "preference-questionnaire",
+   "name": "Preferences as questionnaire answers (Definition 1)",
+   "symbol": "f",
+   "definedIn": [
+    "BFZ0"
+   ]
+  },
+  {
+   "id": "kreps-preference",
+   "name": "Kreps strict preference (asymmetric, negatively transitive)",
+   "symbol": "P",
+   "definedIn": [
+    "RWJP"
+   ]
+  },
+  {
+   "id": "completeness",
+   "name": "Completeness",
+   "definedIn": [
+    "Z06F"
+   ]
+  },
+  {
+   "id": "reflexivity",
+   "name": "Reflexivity",
+   "definedIn": [
+    "Z06F"
+   ]
+  },
+  {
+   "id": "transitivity",
+   "name": "Transitivity",
+   "definedIn": [
+    "Z06F"
+   ]
+  },
+  {
+   "id": "asymmetry",
+   "name": "Asymmetry",
+   "definedIn": [
+    "RWJP",
+    "R3VM"
+   ]
+  },
+  {
+   "id": "negative-transitivity",
+   "name": "Negative transitivity",
+   "definedIn": [
+    "RWJP"
+   ]
+  },
+  {
+   "id": "acyclicity",
+   "name": "Acyclicity",
+   "definedIn": [
+    "R3VM"
+   ]
+  },
+  {
+   "id": "complete-ordering",
+   "name": "Complete ordering (complete, asymmetric, transitive)",
+   "definedIn": [
+    "R3VM"
+   ]
+  },
+  {
+   "id": "criteria-intersection",
+   "name": "Unanimity of criteria (intersection of orderings)",
+   "definedIn": [
+    "AMGG"
+   ]
+  },
+  {
+   "id": "menu-property-1",
+   "name": "Menu preferences: monotonicity under disjoint union (Property 1)",
+   "definedIn": [
+    "ZFVR"
+   ]
+  },
+  {
+   "id": "menu-property-2",
+   "name": "Menu preferences: adding a best or worst singleton (Property 2)",
+   "definedIn": [
+    "ZFVR"
+   ]
+  },
+  {
+   "id": "utility-representation",
+   "name": "Utility representation",
+   "symbol": "u",
+   "definedIn": [
+    "87KG"
+   ]
+  },
+  {
+   "id": "continuous-utility-representation",
+   "name": "Continuous utility representation",
+   "definedIn": [
+    "87KG",
+    "8CWS"
+   ]
+  },
+  {
+   "id": "integer-valued-utility-representation",
+   "name": "Integer-valued utility representation",
+   "definedIn": [
+    "87KG",
+    "RPYB"
+   ]
+  },
+  {
+   "id": "lexicographic-preference",
+   "name": "Lexicographic preference",
+   "symbol": "\\succsim_L",
+   "definedIn": [
+    "VQ84",
+    "B7T6",
+    "KFSX"
+   ]
+  },
+  {
+   "id": "continuity",
+   "name": "Continuity of preferences (C1, open balls)",
+   "definedIn": [
+    "1RA9"
+   ]
+  },
+  {
+   "id": "continuity-closed-graph",
+   "name": "Continuity of preferences (C2, closed graph)",
+   "definedIn": [
+    "KFBC"
+   ]
+  },
+  {
+   "id": "continuity-closed-contours",
+   "name": "Continuity of preferences (C3, closed contour sets)",
+   "definedIn": [
+    "34FJ"
+   ]
+  },
+  {
+   "id": "continuity-open-strict-contours",
+   "name": "Continuity of preferences (C4, open strict contour sets)",
+   "definedIn": [
+    "34FJ"
+   ]
+  },
+  {
+   "id": "extended-preference",
+   "name": "Extended preference (preference with a 'much better' relation)",
+   "symbol": "(\\succsim, \\succ\\!\\succ)",
+   "definedIn": [
+    "1AB2"
+   ]
+  },
+  {
+   "id": "extended-preference-representation",
+   "name": "Representation of an extended preference",
+   "definedIn": [
+    "1AB2"
+   ]
+  },
+  {
+   "id": "approximately-the-same",
+   "name": "'Approximately the same' relation (S-1 to S-6)",
+   "symbol": "S",
+   "definedIn": [
+    "7CFH"
+   ]
+  },
+  {
+   "id": "epsilon-band-relation",
+   "name": "Epsilon-band relation",
+   "symbol": "S_\\varepsilon",
+   "definedIn": [
+    "7CFH"
+   ]
+  },
+  {
+   "id": "epsilon-band-representation",
+   "name": "Representation by a band around a strictly increasing continuous function",
+   "definedIn": [
+    "7CFH"
+   ]
+  },
+  {
+   "id": "strict-monotonicity-plane",
+   "name": "Strict monotonicity on the plane (Jehle-Reny)",
+   "definedIn": [
+    "KFSX"
+   ]
+  },
+  {
+   "id": "context",
+   "name": "Context (grand set and domain of choice problems)",
+   "symbol": "(X, \\mathcal{D})",
+   "definedIn": [
+    "RPJS"
+   ]
+  },
+  {
+   "id": "choice-function",
+   "name": "Choice function",
+   "symbol": "C",
+   "definedIn": [
+    "X7ST"
+   ]
+  },
+  {
+   "id": "induced-choice-function",
+   "name": "Choice function induced by a preference (rational choice)",
+   "symbol": "C_{\\succsim}",
+   "definedIn": [
+    "C2KC"
+   ]
+  },
+  {
+   "id": "rationalizable",
+   "name": "Rationalizable choice function",
+   "definedIn": [
+    "GS6D"
+   ]
+  },
+  {
+   "id": "condition-alpha",
+   "name": "Condition α (choice functions)",
+   "symbol": "\\alpha",
+   "definedIn": [
+    "NJPW"
+   ]
+  },
+  {
+   "id": "satisficing-choice-function",
+   "name": "Satisficing choice function",
+   "symbol": "C_{v,v^*,O}",
+   "definedIn": [
+    "F8ZF"
+   ]
+  },
+  {
+   "id": "choice-correspondence",
+   "name": "Choice correspondence",
+   "symbol": "C",
+   "definedIn": [
+    "B5ZT"
+   ]
+  },
+  {
+   "id": "induced-choice-correspondence",
+   "name": "Choice correspondence induced by a preference",
+   "symbol": "C_{\\succsim}",
+   "definedIn": [
+    "FJGF"
+   ]
+  },
+  {
+   "id": "weak-axiom",
+   "name": "Weak Axiom of Revealed Preference (choice correspondences)",
+   "symbol": "\\mathrm{WA}",
+   "definedIn": [
+    "WPC9"
+   ]
+  },
+  {
+   "id": "condition-alpha-correspondence",
+   "name": "Condition α (choice correspondences)",
+   "symbol": "\\alpha",
+   "definedIn": [
+    "8PP8"
+   ]
+  },
+  {
+   "id": "condition-beta",
+   "name": "Condition β (choice correspondences)",
+   "symbol": "\\beta",
+   "definedIn": [
+    "NKV4"
+   ]
+  },
+  {
+   "id": "rationalizable-correspondence",
+   "name": "Rationalizable choice correspondence",
+   "definedIn": [
+    "VZBB"
+   ]
+  },
+  {
+   "id": "extended-choice-function",
+   "name": "Extended choice function (choice with a default)",
+   "symbol": "c(A, a)",
+   "definedIn": [
+    "B1HP"
+   ]
+  },
+  {
+   "id": "default-bias-procedure",
+   "name": "Default-bias procedure",
+   "symbol": "\\mathrm{DBP}_{u,\\beta}",
+   "definedIn": [
+    "4JBW"
+   ]
+  },
+  {
+   "id": "weak-axiom-default",
+   "name": "Weak Axiom for choice with a default",
+   "symbol": "\\mathrm{WA}",
+   "definedIn": [
+    "H4YY"
+   ]
+  },
+  {
+   "id": "default-tendency",
+   "name": "Default Tendency",
+   "symbol": "\\mathrm{DT}",
+   "definedIn": [
+    "1GKF"
+   ]
+  },
+  {
+   "id": "path-independence",
+   "name": "Path independence",
+   "definedIn": [
+    "XDK6"
+   ]
+  },
+  {
+   "id": "path-independence-closed",
+   "name": "Path independence (both pieces in the domain)",
+   "definedIn": [
+    "XDK6"
+   ]
+  },
+  {
+   "id": "path-independence-reading",
+   "name": "Path independence (other domain conventions)",
+   "definedIn": [
+    "XDK6"
+   ]
+  },
+  {
+   "id": "borda-choice",
+   "name": "Two-children Borda (rank-average) choice correspondence",
+   "definedIn": [
+    "WNQ9"
+   ]
+  },
+  {
+   "id": "closest-to-ideal-choice",
+   "name": "Choosing the alternative closest to an ideal point",
+   "definedIn": [
+    "WNQ9"
+   ]
+  },
+  {
+   "id": "median-choice",
+   "name": "Choosing the median of a fixed ordering",
+   "definedIn": [
+    "WNQ9"
+   ]
+  },
+  {
+   "id": "above-median-choice",
+   "name": "Choosing the alternatives at or above the median of X",
+   "definedIn": [
+    "JVT9"
+   ]
+  },
+  {
+   "id": "local-median-choice",
+   "name": "Choosing the alternatives at or above the median of the menu",
+   "definedIn": [
+    "JVT9"
+   ]
+  },
+  {
+   "id": "two-orderings-choice",
+   "name": "Choosing the top element of either of two orderings",
+   "definedIn": [
+    "JVT9"
+   ]
+  },
+  {
+   "id": "most-common-class-choice",
+   "name": "Best member of the most common class",
+   "definedIn": [
+    "T821"
+   ]
+  },
+  {
+   "id": "threshold-procedure-a",
+   "name": "Two-criteria procedure gated on the second criterion (procedure a)",
+   "definedIn": [
+    "V990"
+   ]
+  },
+  {
+   "id": "threshold-procedure-b",
+   "name": "Two-criteria procedure gated on the first criterion (procedure b)",
+   "definedIn": [
+    "V990"
+   ]
+  },
+  {
+   "id": "list-choice-function",
+   "name": "Choice function from lists",
+   "symbol": "C(\\langle a_1,\\dots,a_K \\rangle)",
+   "definedIn": [
+    "R058"
+   ]
+  },
+  {
+   "id": "property-i",
+   "name": "Property I (choice from a list of lists)",
+   "definedIn": [
+    "R058"
+   ]
+  },
+  {
+   "id": "order-invariance",
+   "name": "Order Invariance (lists)",
+   "definedIn": [
+    "R058"
+   ]
+  },
+  {
+   "id": "duplication-invariance",
+   "name": "Duplication Invariance (lists)",
+   "definedIn": [
+    "R058"
+   ]
+  },
+  {
+   "id": "accommodates-longer-list",
+   "name": "Accommodating a longer list",
+   "definedIn": [
+    "R058"
+   ]
+  },
+  {
+   "id": "rationalizable-by-ordering-lists",
+   "name": "List choice rationalized by an ordering",
+   "definedIn": [
+    "R058"
+   ]
+  },
+  {
+   "id": "lexicographically-rational",
+   "name": "Lexicographically rational choice function",
+   "definedIn": [
+    "PX4Y"
+   ]
+  },
+  {
+   "id": "reference-point-property",
+   "name": "Reference point property",
+   "definedIn": [
+    "PX4Y"
+   ]
+  },
+  {
+   "id": "wwarp",
+   "name": "Weak WARP (WWARP)",
+   "symbol": "\\mathrm{WWARP}",
+   "definedIn": [
+    "WKQ6"
+   ]
+  },
+  {
+   "id": "rationalized-by-rationales",
+   "name": "Rationalized by a master relation and rationales",
+   "definedIn": [
+    "WKQ6"
+   ]
+  },
+  {
+   "id": "warm-glow-choice",
+   "name": "Warm-glow choice procedure",
+   "definedIn": [
+    "WKQ6"
+   ]
+  },
+  {
+   "id": "probabilistic-choice-function",
+   "name": "Probabilistic choice function",
+   "symbol": "C(a \\mid A)",
+   "definedIn": [
+    "JRQQ"
+   ]
+  },
+  {
+   "id": "luce-choice-axiom",
+   "name": "Luce's choice axiom (path independence of probabilities)",
+   "symbol": "\\mathrm{PI}",
+   "definedIn": [
+    "JRQQ"
+   ]
+  },
+  {
+   "id": "luce-representation",
+   "name": "Luce representation",
+   "symbol": "C(a \\mid A) = \\tfrac{v(a)}{\\sum_{x \\in A} v(x)}",
+   "definedIn": [
+    "JRQQ"
+   ]
+  },
+  {
+   "id": "monotonicity",
+   "name": "Monotonicity",
+   "definedIn": [
+    "MGX1"
+   ]
+  },
+  {
+   "id": "strong-monotonicity",
+   "name": "Strong monotonicity",
+   "definedIn": [
+    "90P0"
+   ]
+  },
+  {
+   "id": "strong-monotonicity-commodity-1",
+   "name": "Strong monotonicity in commodity 1",
+   "definedIn": [
+    "Y4VK"
+   ]
+  },
+  {
+   "id": "nonsatiation",
+   "name": "Nonsatiation at a bundle",
+   "definedIn": [
+    "9Q3V"
+   ]
+  },
+  {
+   "id": "continuity-orthant",
+   "name": "Continuity on the commodity space (single radius)",
+   "definedIn": [
+    "YD1M"
+   ]
+  },
+  {
+   "id": "continuity-real-line",
+   "name": "Continuity of a preference on the real line",
+   "definedIn": [
+    "1P2B"
+   ]
+  },
+  {
+   "id": "continuity-unit-interval",
+   "name": "Continuity of a preference on [0, 1]",
+   "definedIn": [
+    "Q5N3"
+   ]
+  },
+  {
+   "id": "convexity",
+   "name": "Convexity (Convexity 1)",
+   "definedIn": [
+    "E0BR"
+   ]
+  },
+  {
+   "id": "convexity-2",
+   "name": "Convexity 2 (a mixture is at least as good as one endpoint)",
+   "definedIn": [
+    "QY3Y"
+   ]
+  },
+  {
+   "id": "convexity-3",
+   "name": "Convexity 3 (convex upper contour sets)",
+   "definedIn": [
+    "ABKE"
+   ]
+  },
+  {
+   "id": "convexity-4",
+   "name": "Convexity 4 (two-good commodity space)",
+   "definedIn": [
+    "N5T6"
+   ]
+  },
+  {
+   "id": "convexity-real-line",
+   "name": "Convexity of a preference on the real line",
+   "definedIn": [
+    "1P2B"
+   ]
+  },
+  {
+   "id": "convex-upper-contour-sets",
+   "name": "Convex upper contour sets on a convex subset of ℝⁿ",
+   "definedIn": [
+    "Q2AC"
+   ]
+  },
+  {
+   "id": "convex-strict-upper-contour-sets",
+   "name": "Convex strict upper contour sets on a convex subset of ℝⁿ",
+   "definedIn": [
+    "Q2AC"
+   ]
+  },
+  {
+   "id": "lambda-convexity",
+   "name": "Lambda-convexity (book definition)",
+   "symbol": "\\Lambda",
+   "definedIn": [
+    "T01P"
+   ]
+  },
+  {
+   "id": "psi-convexity",
+   "name": "Ψ-convexity (algebraic linear orderings)",
+   "symbol": "\\Psi",
+   "definedIn": [
+    "X4NB"
+   ]
+  },
+  {
+   "id": "bottom-up-constructible",
+   "name": "Constructible by the bottom-up placement procedure",
+   "definedIn": [
+    "C6DS"
+   ]
+  },
+  {
+   "id": "strict-convexity",
+   "name": "Strict convexity",
+   "definedIn": [
+    "D7P4"
+   ]
+  },
+  {
+   "id": "strict-convexity-unit-interval",
+   "name": "Strict convexity of a preference on [0, 1]",
+   "definedIn": [
+    "9YEJ",
+    "MQ4V"
+   ]
+  },
+  {
+   "id": "lambda-strict-convexity",
+   "name": "Lambda-strict convexity",
+   "symbol": "\\Lambda",
+   "definedIn": [
+    "0T4N"
+   ]
+  },
+  {
+   "id": "single-peaked",
+   "name": "Single-peaked preference on [0, 1]",
+   "definedIn": [
+    "815D"
+   ]
+  },
+  {
+   "id": "quasiconcave-utility",
+   "name": "Quasi-concave utility function",
+   "definedIn": [
+    "KKZP"
+   ]
+  },
+  {
+   "id": "concave-utility-representation",
+   "name": "Concave utility representation",
+   "definedIn": [
+    "1P2B"
+   ]
+  },
+  {
+   "id": "homotheticity",
+   "name": "Homotheticity",
+   "definedIn": [
+    "GTMM"
+   ]
+  },
+  {
+   "id": "homogeneous-utility-representation",
+   "name": "Continuous utility representation homogeneous of degree one",
+   "definedIn": [
+    "A62M"
+   ]
+  },
+  {
+   "id": "quasi-linearity",
+   "name": "Quasi-linearity in commodity 1",
+   "definedIn": [
+    "3WW2"
+   ]
+  },
+  {
+   "id": "quasi-linearity-in-k",
+   "name": "Quasi-linearity in a given commodity",
+   "definedIn": [
+    "P1YT"
+   ]
+  },
+  {
+   "id": "quasi-linearity-all",
+   "name": "Quasi-linearity in all commodities",
+   "definedIn": [
+    "QVFF"
+   ]
+  },
+  {
+   "id": "quasi-linearity-two-way",
+   "name": "Quasi-linearity in both commodities, two-way form (K = 2)",
+   "definedIn": [
+    "N79K"
+   ]
+  },
+  {
+   "id": "quasi-linear-utility-representation",
+   "name": "Quasi-linear utility representation",
+   "symbol": "u(x) = x_1 + v(x_2,\\dots,x_K)",
+   "definedIn": [
+    "9RT8"
+   ]
+  },
+  {
+   "id": "linear-utility-representation",
+   "name": "Linear utility representation with positive weights",
+   "symbol": "u(x) = \\alpha \\cdot x",
+   "definedIn": [
+    "A7N1"
+   ]
+  },
+  {
+   "id": "lexicographic-linear",
+   "name": "Lexicographic order of two linear functionals (K = 2)",
+   "definedIn": [
+    "N79K"
+   ]
+  },
+  {
+   "id": "separability",
+   "name": "Separability (additively separable utility)",
+   "symbol": "\\textstyle\\sum_k v_k(x_k)",
+   "definedIn": [
+    "KE3Z"
+   ]
+  },
+  {
+   "id": "condition-s",
+   "name": "Condition S",
+   "definedIn": [
+    "KE3Z"
+   ]
+  },
+  {
+   "id": "hexagon-condition",
+   "name": "Hexagon condition",
+   "definedIn": [
+    "KE3Z"
+   ]
+  },
+  {
+   "id": "differentiability",
+   "name": "Differentiable preference",
+   "definedIn": [
+    "RCCW"
+   ]
+  },
+  {
+   "id": "differentiability-line-sign-free",
+   "name": "Differentiability on the real line, value function of any sign",
+   "definedIn": [
+    "QH53"
+   ]
+  },
+  {
+   "id": "star-condition",
+   "name": "Condition (*): the feasible improvement directions are exactly the improvements",
+   "definedIn": [
+    "BWAT"
+   ]
+  },
+  {
+   "id": "flat-indifference-sets",
+   "name": "Flat (hyperplane) indifference sets",
+   "definedIn": [
+    "BWAT"
+   ]
+  },
+  {
+   "id": "improvement-direction-set",
+   "name": "Set of improvement directions",
+   "symbol": "D_{\\succsim}(x)",
+   "definedIn": [
+    "8B31"
+   ]
+  },
+  {
+   "id": "value-direction-set",
+   "name": "Directions valued positively by a value function",
+   "symbol": "D_v(x)",
+   "definedIn": [
+    "BV7P"
+   ]
+  },
+  {
+   "id": "budget-set",
+   "name": "Budget set",
+   "symbol": "B(p,w)",
+   "definedIn": [
+    "50HD"
+   ]
+  },
+  {
+   "id": "demand-existence",
+   "name": "Every consumer problem has a solution",
+   "definedIn": [
+    "50HD"
+   ]
+  },
+  {
+   "id": "demand-convex-valued",
+   "name": "Convex set of solutions of the consumer problem",
+   "definedIn": [
+    "SSRC"
+   ]
+  },
+  {
+   "id": "demand-uniqueness",
+   "name": "At most one solution of the consumer problem",
+   "definedIn": [
+    "SSRC"
+   ]
+  },
+  {
+   "id": "walras-law",
+   "name": "Walras' law (demand exhausts wealth)",
+   "symbol": "p \\cdot x = w",
+   "definedIn": [
+    "9A46"
+   ]
+  },
+  {
+   "id": "demand-continuity",
+   "name": "Continuity of the demand function in prices and wealth",
+   "definedIn": [
+    "41XD"
+   ]
+  },
+  {
+   "id": "demand-closed-graph",
+   "name": "Closed graph of the demand correspondence",
+   "definedIn": [
+    "989H"
+   ]
+  },
+  {
+   "id": "demand-upper-semicontinuity",
+   "name": "Upper semi-continuity of the demand correspondence",
+   "definedIn": [
+    "2GSH"
+   ]
+  },
+  {
+   "id": "weak-axiom-demand",
+   "name": "Weak Axiom of Revealed Preference (demand functions)",
+   "symbol": "\\mathrm{WA}",
+   "definedIn": [
+    "55RK"
+   ]
+  },
+  {
+   "id": "compensated-law-of-demand",
+   "name": "Compensated law of demand",
+   "symbol": "(p' - p)\\cdot(x' - x) < 0",
+   "definedIn": [
+    "55RK"
+   ]
+  },
+  {
+   "id": "demand-homogeneous-in-wealth",
+   "name": "Demand homogeneous of degree one in wealth",
+   "symbol": "x(p, \\lambda w) = \\lambda x(p,w)",
+   "definedIn": [
+    "CEM1"
+   ]
+  },
+  {
+   "id": "consistent-with-maximizing",
+   "name": "Demand consistent with maximizing a preference (bare maximality)",
+   "definedIn": [
+    "WFXS"
+   ]
+  },
+  {
+   "id": "rationalizable-demand",
+   "name": "Demand rationalized by a monotone preference",
+   "definedIn": [
+    "WFXS"
+   ]
+  },
+  {
+   "id": "fully-rationalizable-demand",
+   "name": "Demand fully rationalized (unique maximizer)",
+   "definedIn": [
+    "WFXS"
+   ]
+  },
+  {
+   "id": "giffen-good",
+   "name": "Giffen good",
+   "definedIn": [
+    "Z50J"
+   ]
+  },
+  {
+   "id": "inferior-good",
+   "name": "Inferior good",
+   "definedIn": [
+    "Z50J"
+   ]
+  },
+  {
+   "id": "quasi-linear-first-commodity-demand",
+   "name": "First-commodity demand of a quasi-linear consumer (K = 2)",
+   "definedIn": [
+    "C0C9"
+   ]
+  },
+  {
+   "id": "numeraire-threshold-demand",
+   "name": "Wealth-threshold demand form",
+   "symbol": "g(w) = \\max\\left(0, \\tfrac{w - t}{p_1}\\right)",
+   "definedIn": [
+    "C0C9"
+   ]
+  },
+  {
+   "id": "utility-floor-procedure",
+   "name": "Maximize good 1 subject to a utility floor",
+   "definedIn": [
+    "JD04"
+   ]
+  },
+  {
+   "id": "strict-concavity-preference",
+   "name": "Strict 'concavity' of a preference (two goods)",
+   "definedIn": [
+    "XPXN"
+   ]
+  },
+  {
+   "id": "indirect-preference",
+   "name": "Indirect preference over choice problems",
+   "symbol": "\\succsim^*",
+   "definedIn": [
+    "D22F"
+   ]
+  },
+  {
+   "id": "indirect-utility",
+   "name": "Indirect utility over choice problems",
+   "symbol": "v(A) = u(C_{\\succsim}(A))",
+   "definedIn": [
+    "CZB0"
+   ]
+  },
+  {
+   "id": "budget-indirect-preference",
+   "name": "Indirect preference over budget parameters",
+   "symbol": "(p,w) \\succsim^* (p',w')",
+   "definedIn": [
+    "BJEG"
+   ]
+  },
+  {
+   "id": "demand-function",
+   "name": "Demand (unique solution of the prime problem)",
+   "symbol": "x(p,w)",
+   "definedIn": [
+    "V65Y"
+   ]
+  },
+  {
+   "id": "prime-problem-solution",
+   "name": "Solution of the prime problem (best bundle in the budget set)",
+   "definedIn": [
+    "V65Y"
+   ]
+  },
+  {
+   "id": "dual-problem-solution",
+   "name": "Solution of the dual problem (cheapest bundle at least as good as z)",
+   "definedIn": [
+    "2RVJ"
+   ]
+  },
+  {
+   "id": "hicksian-demand",
+   "name": "Hicksian demand and the expenditure function",
+   "symbol": "h(p,z),\\ e(p,z)",
+   "definedIn": [
+    "2RVJ"
+   ]
+  },
+  {
+   "id": "continuous-hicksian-demand",
+   "name": "Continuity of the dual solution in prices and target bundle",
+   "definedIn": [
+    "Z1TD"
+   ]
+  },
+  {
+   "id": "compensating-variation",
+   "name": "Compensating variation",
+   "symbol": "\\mathrm{CV}",
+   "definedIn": [
+    "P1YT"
+   ]
+  },
+  {
+   "id": "equivalent-variation",
+   "name": "Equivalent variation",
+   "symbol": "\\mathrm{EV}",
+   "definedIn": [
+    "P1YT"
+   ]
+  },
+  {
+   "id": "cv-equals-ev",
+   "name": "Compensating and equivalent variations coincide",
+   "symbol": "\\mathrm{CV} = \\mathrm{EV}",
+   "definedIn": [
+    "P1YT"
+   ]
+  },
+  {
+   "id": "normal-good",
+   "name": "Normal good",
+   "definedIn": [
+    "P1YT"
+   ]
+  },
+  {
+   "id": "area-between-variations",
+   "name": "Area under the demand curve lies between CV and EV",
+   "definedIn": [
+    "P1YT"
+   ]
+  },
+  {
+   "id": "technology",
+   "name": "Technology (production set)",
+   "symbol": "Z \\subseteq \\mathbb{R}^K",
+   "definedIn": [
+    "DD0P"
+   ]
+  },
+  {
+   "id": "inaction",
+   "name": "Possibility of inaction",
+   "symbol": "0 \\in Z",
+   "definedIn": [
+    "DD0P"
+   ]
+  },
+  {
+   "id": "no-free-lunch",
+   "name": "No free lunch",
+   "definedIn": [
+    "DD0P"
+   ]
+  },
+  {
+   "id": "free-disposal",
+   "name": "Free disposal",
+   "definedIn": [
+    "DD0P"
+   ]
+  },
+  {
+   "id": "closed-technology",
+   "name": "Closed technology",
+   "definedIn": [
+    "DD0P"
+   ]
+  },
+  {
+   "id": "convex-technology",
+   "name": "Convex technology",
+   "definedIn": [
+    "DD0P"
+   ]
+  },
+  {
+   "id": "non-increasing-returns-to-scale",
+   "name": "Non-increasing returns to scale (scaling down stays feasible)",
+   "definedIn": [
+    "DD0P"
+   ]
+  },
+  {
+   "id": "production-function",
+   "name": "Production function",
+   "symbol": "f",
+   "definedIn": [
+    "TBS9"
+   ]
+  },
+  {
+   "id": "derived-technology",
+   "name": "Technology derived from a production function",
+   "symbol": "Z(f)",
+   "definedIn": [
+    "TBS9"
+   ]
+  },
+  {
+   "id": "concave-production-function",
+   "name": "Concave production function",
+   "definedIn": [
+    "F647",
+    "VDCT"
+   ]
+  },
+  {
+   "id": "rational-producer",
+   "name": "Producer maximizing a preference over plan-profit pairs",
+   "definedIn": [
+    "VQRJ"
+   ]
+  },
+  {
+   "id": "returns-maximizer",
+   "name": "Returns maximizer (maximizes profit over cost)",
+   "symbol": "\\pi / (p_a \\cdot a)",
+   "definedIn": [
+    "VQRJ",
+    "ZF34"
+   ]
+  },
+  {
+   "id": "profit-maximization",
+   "name": "Producer's problem, profit function and supply function",
+   "symbol": "\\pi(p),\\ z(p)",
+   "definedIn": [
+    "Z39X"
+   ]
+  },
+  {
+   "id": "cost-function",
+   "name": "Cost function",
+   "symbol": "c(p, y)",
+   "definedIn": [
+    "CX4T"
+   ]
+  },
+  {
+   "id": "lottery",
+   "name": "Lottery over a finite set of prizes",
+   "symbol": "L(Z)",
+   "definedIn": [
+    "4Z7K"
+   ]
+  },
+  {
+   "id": "independence-axiom",
+   "name": "Independence axiom",
+   "symbol": "\\mathrm{I}",
+   "definedIn": [
+    "4Z7K"
+   ]
+  },
+  {
+   "id": "continuity-axiom",
+   "name": "Continuity axiom (lotteries)",
+   "symbol": "\\mathrm{C}",
+   "definedIn": [
+    "VS3J"
+   ]
+  },
+  {
+   "id": "vnm-assumptions",
+   "name": "von Neumann–Morgenstern assumptions (Independence and Continuity)",
+   "definedIn": [
+    "2A4D"
+   ]
+  },
+  {
+   "id": "expected-utility-representation",
+   "name": "Expected utility representation",
+   "symbol": "\\textstyle\\sum_z p(z)\\,v(z)",
+   "definedIn": [
+    "VS3J",
+    "JMAR",
+    "9E1M"
+   ]
+  },
+  {
+   "id": "bet-weak-monotonicity",
+   "name": "Weak monotonicity of a preference over bets",
+   "definedIn": [
+    "D094"
+   ]
+  },
+  {
+   "id": "bet-additivity",
+   "name": "Additivity of a preference over bets",
+   "definedIn": [
+    "D094"
+   ]
+  },
+  {
+   "id": "subjective-expected-utility",
+   "name": "Representation by a probability vector over states",
+   "symbol": "\\textstyle\\sum_k \\pi_k x_k",
+   "definedIn": [
+    "D094"
+   ]
+  },
+  {
+   "id": "support-size-preference",
+   "name": "Ranking lotteries by the size of their support",
+   "definedIn": [
+    "65GY"
+   ]
+  },
+  {
+   "id": "most-likely-prize-preference",
+   "name": "Comparing the most likely prizes",
+   "definedIn": [
+    "65GY"
+   ]
+  },
+  {
+   "id": "immune-to-reframing",
+   "name": "Immunity to reframing",
+   "definedIn": [
+    "65GY"
+   ]
+  },
+  {
+   "id": "mean-quarter-variance-preference",
+   "name": "Mean-variance evaluation 𝔼x − var/4",
+   "symbol": "\\mathrm{E}x - \\tfrac14 \\mathrm{var}",
+   "definedIn": [
+    "2A4D"
+   ]
+  },
+  {
+   "id": "mean-squared-mean-variance-preference",
+   "name": "Evaluation 𝔼x − (𝔼x)² − var",
+   "symbol": "\\mathrm{E}x - (\\mathrm{E}x)^2 - \\mathrm{var}",
+   "definedIn": [
+    "2A4D"
+   ]
+  },
+  {
+   "id": "bayesian-updating",
+   "name": "Bayesian updating after an announcement",
+   "definedIn": [
+    "JMAR"
+   ]
+  },
+  {
+   "id": "time-consistency",
+   "name": "Time consistency of choice across an announcement",
+   "definedIn": [
+    "JMAR"
+   ]
+  },
+  {
+   "id": "egalitarian-comparison",
+   "name": "Egalitarian comparison of income distributions",
+   "definedIn": [
+    "GYXY"
+   ]
+  },
+  {
+   "id": "mixture-quasi-convexity",
+   "name": "Mixture quasi-convexity",
+   "definedIn": [
+    "GYXY"
+   ]
+  },
+  {
+   "id": "longevity-quality-conditions",
+   "name": "Longevity-quality Conditions 1-3",
+   "definedIn": [
+    "9E1M"
+   ]
+  },
+  {
+   "id": "longevity-quality-representation",
+   "name": "Expected utility of the form E[v(q) t]",
+   "symbol": "\\mathrm{E}[v(q)\\,t]",
+   "definedIn": [
+    "9E1M"
+   ]
+  },
+  {
+   "id": "schedule",
+   "name": "Schedule of a day's activities",
+   "definedIn": [
+    "RPWH"
+   ]
+  },
+  {
+   "id": "time-additive-representation",
+   "name": "Time-additive representation of preferences over schedules",
+   "definedIn": [
+    "RPWH"
+   ]
+  },
+  {
+   "id": "time-allocation-invariance",
+   "name": "Indifference between schedules with the same time per activity",
+   "definedIn": [
+    "RPWH"
+   ]
+  },
+  {
+   "id": "concatenation-independence",
+   "name": "A common continuation preserves the ranking of schedules",
+   "definedIn": [
+    "RPWH"
+   ]
+  },
+  {
+   "id": "monetary-lottery",
+   "name": "Lottery over monetary prizes",
+   "symbol": "L(Z),\\ Z \\subseteq \\mathbb{R}",
+   "definedIn": [
+    "N24H"
+   ]
+  },
+  {
+   "id": "fosd",
+   "name": "First-order stochastic dominance",
+   "symbol": "p\\,D_1\\,q",
+   "definedIn": [
+    "N24H"
+   ]
+  },
+  {
+   "id": "tail-probability-dominance",
+   "name": "Tail-probability dominance",
+   "symbol": "G(p,x) \\ge G(q,x)",
+   "definedIn": [
+    "N24H"
+   ]
+  },
+  {
+   "id": "cdf-dominance",
+   "name": "Distribution-function dominance",
+   "symbol": "F(p,x) \\le F(q,x)",
+   "definedIn": [
+    "N24H"
+   ]
+  },
+  {
+   "id": "sosd",
+   "name": "Second-order stochastic dominance",
+   "symbol": "p\\,D_2\\,q",
+   "definedIn": [
+    "K7S8"
+   ]
+  },
+  {
+   "id": "sosd-partial-sums",
+   "name": "Partial-sum condition on the tail probabilities",
+   "definedIn": [
+    "K7S8"
+   ]
+  },
+  {
+   "id": "mean-zero-noise",
+   "name": "Adding a lottery of expectation zero",
+   "definedIn": [
+    "K7S8"
+   ]
+  },
+  {
+   "id": "risk-aversion",
+   "name": "Risk aversion",
+   "definedIn": [
+    "CQGJ"
+   ]
+  },
+  {
+   "id": "concave-vnm-utility",
+   "name": "Concave vNM utility",
+   "definedIn": [
+    "CQGJ"
+   ]
+  },
+  {
+   "id": "certainty-equivalent",
+   "name": "Certainty equivalent",
+   "symbol": "CE(p)",
+   "definedIn": [
+    "VPWC"
+   ]
+  },
+  {
+   "id": "more-risk-averse",
+   "name": "More risk averse (definition 1: whenever agent 1 weakly prefers a lottery to a sure prize, so does agent 2)",
+   "definedIn": [
+    "VPWC"
+   ]
+  },
+  {
+   "id": "more-risk-averse-ce",
+   "name": "More risk averse (definition 2: smaller certainty equivalents)",
+   "definedIn": [
+    "VPWC"
+   ]
+  },
+  {
+   "id": "concave-transform",
+   "name": "More risk averse (definition 3: u1 a concave transform of u2)",
+   "symbol": "u_1 = \\varphi \\circ u_2,\\ \\varphi \\text{ concave}",
+   "definedIn": [
+    "VPWC"
+   ]
+  },
+  {
+   "id": "monotonic-in-money",
+   "name": "Monotonicity in money",
+   "definedIn": [
+    "HEXC"
+   ]
+  },
+  {
+   "id": "invariance-to-wealth",
+   "name": "Invariance to wealth (constant absolute risk aversion)",
+   "definedIn": [
+    "HEXC"
+   ]
+  },
+  {
+   "id": "cara-utility",
+   "name": "Exponential or linear vNM utility",
+   "symbol": "u(x) = a - b e^{-\\alpha x} \\text{ or } a + bx",
+   "definedIn": [
+    "HEXC"
+   ]
+  },
+  {
+   "id": "investment-preference",
+   "name": "Preference over portfolios induced by expected utility of wealth",
+   "definedIn": [
+    "ASDQ"
+   ]
+  },
+  {
+   "id": "dual-expected-utility",
+   "name": "Dual expected utility (rank-dependent weighting of tail probabilities)",
+   "symbol": "W(p)",
+   "definedIn": [
+    "CXGA"
+   ]
+  },
+  {
+   "id": "independence-axiom-monetary",
+   "name": "Independence axiom (monetary lotteries)",
+   "symbol": "\\mathrm{I}",
+   "definedIn": [
+    "CXGA"
+   ]
+  },
+  {
+   "id": "pointwise-probability-weighting",
+   "name": "Weighting each prize's own probability",
+   "definedIn": [
+    "CXGA"
+   ]
+  },
+  {
+   "id": "fosd-monotone-evaluation",
+   "name": "Evaluation that respects first-order stochastic dominance",
+   "definedIn": [
+    "CXGA"
+   ]
+  },
+  {
+   "id": "readier-to-pay-for-information",
+   "name": "Ready to pay at least as much for the information",
+   "definedIn": [
+    "1S2E"
+   ]
+  },
+  {
+   "id": "social-welfare-function",
+   "name": "Social welfare function (basic model of social choice)",
+   "symbol": "F",
+   "definedIn": [
+    "FTQJ"
+   ]
+  },
+  {
+   "id": "pareto",
+   "name": "Pareto condition (Par)",
+   "symbol": "\\mathrm{Par}",
+   "definedIn": [
+    "CE9N"
+   ]
+  },
+  {
+   "id": "iia",
+   "name": "Independence of irrelevant alternatives (IIA)",
+   "symbol": "\\mathrm{IIA}",
+   "definedIn": [
+    "HNGG"
+   ]
+  },
+  {
+   "id": "dictatorial",
+   "name": "Dictatorial social welfare function",
+   "definedIn": [
+    "2E31"
+   ]
+  },
+  {
+   "id": "majority-relation",
+   "name": "Pairwise majority relation",
+   "definedIn": [
+    "FJWH"
+   ]
+  },
+  {
+   "id": "pareto-relational",
+   "name": "Pareto condition for a rule assigning a relation to each profile",
+   "symbol": "\\mathrm{Par}",
+   "definedIn": [
+    "FJWH"
+   ]
+  },
+  {
+   "id": "iia-relational",
+   "name": "IIA for a rule assigning a relation to each profile",
+   "symbol": "\\mathrm{IIA}",
+   "definedIn": [
+    "FJWH"
+   ]
+  },
+  {
+   "id": "dictatorial-relational",
+   "name": "Dictatorial rule assigning a relation to each profile",
+   "definedIn": [
+    "FJWH"
+   ]
+  },
+  {
+   "id": "strong-positive-association",
+   "name": "Strong positive association",
+   "definedIn": [
+    "61EJ"
+   ]
+  },
+  {
+   "id": "ms-monotonicity",
+   "name": "Monotonicity (Muller–Satterthwaite)",
+   "definedIn": [
+    "61EJ"
+   ]
+  },
+  {
+   "id": "social-choice-function",
+   "name": "Social choice function (SCF)",
+   "definedIn": [
+    "61EJ"
+   ]
+  },
+  {
+   "id": "straightforward",
+   "name": "Straightforward (non-manipulable) SCF",
+   "definedIn": [
+    "61EJ"
+   ]
+  },
+  {
+   "id": "scf-onto",
+   "name": "SCF onto the set of alternatives",
+   "definedIn": [
+    "61EJ"
+   ]
+  },
+  {
+   "id": "dictatorial-scf",
+   "name": "Dictatorial SCF (always picks one individual's best alternative)",
+   "definedIn": [
+    "61EJ"
+   ]
+  },
+  {
+   "id": "choice-unanimity",
+   "name": "Unanimity for aggregation into choice functions",
+   "definedIn": [
+    "61EJ"
+   ]
+  },
+  {
+   "id": "invariance-to-procedure",
+   "name": "Invariance to the procedure",
+   "definedIn": [
+    "61EJ"
+   ]
+  },
+  {
+   "id": "iia-choice",
+   "name": "IIA for aggregation into choice functions",
+   "definedIn": [
+    "61EJ"
+   ]
+  },
+  {
+   "id": "choice-dictatorship",
+   "name": "Choice dictatorship (always one individual's best element of the menu)",
+   "definedIn": [
+    "61EJ"
+   ]
+  },
+  {
+   "id": "borda-rule",
+   "name": "Borda rule",
+   "definedIn": [
+    "44KZ"
+   ]
+  },
+  {
+   "id": "anonymity",
+   "name": "Anonymity (two alternatives)",
+   "definedIn": [
+    "C9V6"
+   ]
+  },
+  {
+   "id": "neutrality",
+   "name": "Neutrality (two alternatives)",
+   "definedIn": [
+    "C9V6"
+   ]
+  },
+  {
+   "id": "positive-responsiveness",
+   "name": "Positive responsiveness (two alternatives)",
+   "definedIn": [
+    "C9V6"
+   ]
+  },
+  {
+   "id": "majority-rule",
+   "name": "Majority rule (two alternatives)",
+   "definedIn": [
+    "C9V6"
+   ]
+  },
+  {
+   "id": "single-peaked-profile",
+   "name": "Single-peaked profile",
+   "definedIn": [
+    "YVPG"
+   ]
+  },
+  {
+   "id": "recommendation-unanimity",
+   "name": "Unanimity for aggregating recommendations",
+   "definedIn": [
+    "KV0P"
+   ]
+  },
+  {
+   "id": "recommendation-independence",
+   "name": "Independence for aggregating recommendations",
+   "definedIn": [
+    "KV0P"
+   ]
+  },
+  {
+   "id": "recommendation-dictatorship",
+   "name": "Dictatorship for aggregating recommendations",
+   "definedIn": [
+    "KV0P"
+   ]
+  },
+  {
+   "id": "decisive-wrt",
+   "name": "Coalition decisive with respect to an ordered pair",
+   "definedIn": [
+    "3TEW"
+   ]
+  },
+  {
+   "id": "almost-decisive-wrt",
+   "name": "Coalition almost decisive with respect to an ordered pair",
+   "definedIn": [
+    "3TEW"
+   ]
+  },
+  {
+   "id": "decisive-coalition",
+   "name": "Decisive coalition",
+   "definedIn": [
+    "3TEW"
+   ]
+  },
+  {
+   "id": "consensus",
+   "name": "Consensus (deciding who is an economist)",
+   "definedIn": [
+    "DQ5W"
+   ]
+  },
+  {
+   "id": "membership-independence",
+   "name": "Independence (deciding who is an economist)",
+   "definedIn": [
+    "DQ5W"
+   ]
+  },
+  {
+   "id": "membership-dictatorship",
+   "name": "Dictatorship (deciding who is an economist)",
+   "definedIn": [
+    "DQ5W"
+   ]
+  },
+  {
+   "id": "independence-axiom-relation",
+   "name": "Independence axiom for a binary relation on lotteries (MIT 14.121)",
+   "symbol": "\\mathrm{I}",
+   "definedIn": [
+    "ZSF9"
+   ]
+  },
+  {
+   "id": "betweenness-axiom",
+   "name": "Betweenness axiom",
+   "definedIn": [
+    "ZSF9"
+   ]
+  },
+  {
+   "id": "mixture-continuity-axiom",
+   "name": "Mixture continuity axiom (closed sets of mixture weights)",
+   "definedIn": [
+    "ZSF9"
+   ]
+  },
+  {
+   "id": "straight-indifference-curves",
+   "name": "Indifference curves are straight lines",
+   "definedIn": [
+    "ZSF9"
+   ]
+  },
+  {
+   "id": "parallel-indifference-lines",
+   "name": "Indifference lines are parallel",
+   "definedIn": [
+    "ZSF9"
+   ]
+  },
+  {
+   "id": "quasi-linearity-first-good",
+   "name": "Quasi-linearity in the first good (any real shift; MIT 14.121)",
+   "definedIn": [
+    "EQWH"
+   ]
+  },
+  {
+   "id": "strict-convexity-mit",
+   "name": "Strict convexity (MIT 14.121 consumption set)",
+   "definedIn": [
+    "EQWH"
+   ]
+  },
+  {
+   "id": "no-wealth-effect",
+   "name": "Marshallian demand for goods 2..n independent of wealth",
+   "definedIn": [
+    "EQWH"
+   ]
+  },
+  {
+   "id": "no-utility-effect-hicksian",
+   "name": "Hicksian demand for goods 2..n independent of the target utility",
+   "definedIn": [
+    "EQWH"
+   ]
+  },
+  {
+   "id": "quasi-linear-indirect-utility",
+   "name": "Indirect utility of the form w + φ(p)",
+   "symbol": "v(p,w) = w + \\varphi(p)",
+   "definedIn": [
+    "EQWH"
+   ]
+  },
+  {
+   "id": "separable-expenditure",
+   "name": "Expenditure function of the form c(u) − φ(p)",
+   "symbol": "e(p,\\bar u) = c(\\bar u) - \\varphi(p)",
+   "definedIn": [
+    "EQWH"
+   ]
+  },
+  {
+   "id": "positive-representative-consumer",
+   "name": "Aggregate demand generated by a positive representative consumer",
+   "definedIn": [
+    "ZTWY"
+   ]
+  },
+  {
+   "id": "hicksian-substitutes",
+   "name": "Substitutes (Hicksian demand, MIT 14.121)",
+   "definedIn": [
+    "ZFCH"
+   ]
+  },
+  {
+   "id": "increasing-differences",
+   "name": "Increasing differences",
+   "definedIn": [
+    "VHE7"
+   ]
+  },
+  {
+   "id": "concave-function",
+   "name": "Concave function",
+   "definedIn": [
+    "VHE7"
+   ]
+  },
+  {
+   "id": "more-inelastic-demand",
+   "name": "Demand becoming more inelastic as the parameter rises",
+   "definedIn": [
+    "DYEK"
+   ]
+  },
+  {
+   "id": "log-increasing-differences",
+   "name": "log Q has increasing differences in (price, parameter)",
+   "definedIn": [
+    "DYEK"
+   ]
+  },
+  {
+   "id": "monotone-optimal-price",
+   "name": "Greatest optimal price nondecreasing in the parameter",
+   "definedIn": [
+    "DYEK"
+   ]
+  },
+  {
+   "id": "concave-demand",
+   "name": "Concave demand curve",
+   "definedIn": [
+    "DYEK"
+   ]
+  },
+  {
+   "id": "concave-profit",
+   "name": "Concave profit function",
+   "definedIn": [
+    "DYEK"
+   ]
+  },
+  {
+   "id": "increasing-differences-in-skill",
+   "name": "Increasing differences in skill between two technologies",
+   "definedIn": [
+    "C2MD"
+   ]
+  },
+  {
+   "id": "monotone-skill-choice",
+   "name": "Greatest profit-maximizing skill higher under the first technology",
+   "definedIn": [
+    "C2MD"
+   ]
+  },
+  {
+   "id": "slutsky-symmetry",
+   "name": "Slutsky symmetry of an observed demand system",
+   "definedIn": [
+    "KM2S"
+   ]
+  },
+  {
+   "id": "maximizes-observed-demands",
+   "name": "Observed demands maximize a complete transitive order",
+   "definedIn": [
+    "KM2S"
+   ]
+  },
+  {
+   "id": "uniquely-maximizes-observed-demands",
+   "name": "Observed demands uniquely maximize a complete transitive order",
+   "definedIn": [
+    "KM2S"
+   ]
+  },
+  {
+   "id": "arbitrage-free",
+   "name": "Arbitrage-free market (two states)",
+   "definedIn": [
+    "JRZ3"
+   ]
+  },
+  {
+   "id": "pure-nash-equilibrium",
+   "name": "Pure-strategy Nash equilibrium (the exam's three-player game)",
+   "definedIn": [
+    "B2RW"
+   ]
+  },
+  {
+   "id": "belief-system",
+   "name": "Belief system (the exam's extensive game)",
+   "symbol": "\\mu",
+   "definedIn": [
+    "B2RW"
+   ]
+  },
+  {
+   "id": "weak-perfect-bayesian-equilibrium",
+   "name": "Weak perfect Bayesian equilibrium (the exam's extensive game)",
+   "definedIn": [
+    "B2RW"
+   ]
+  },
+  {
+   "id": "sequential-equilibrium",
+   "name": "Sequential equilibrium (the exam's extensive game)",
+   "definedIn": [
+    "B2RW"
+   ]
+  },
+  {
+   "id": "first-best-contract",
+   "name": "First-best contract under observable effort (the exam's sales agents)",
+   "definedIn": [
+    "C249"
+   ]
+  },
+  {
+   "id": "tournament-payoff",
+   "name": "Expected payoff in a two-agent sales tournament",
+   "definedIn": [
+    "C249"
+   ]
+  },
+  {
+   "id": "rr-lambda-convexity",
+   "name": "Lambda-convexity (Richter–Rubinstein 2019 definition)",
+   "symbol": "\\Lambda",
+   "definedIn": [
+    "A4FG"
+   ]
+  },
+  {
+   "id": "convexity-euclidean",
+   "name": "Convexity on a convex subset of ℝᴺ (Richter–Rubinstein standard definition)",
+   "definedIn": [
+    "R0PH"
+   ]
+  },
+  {
+   "id": "aspiration-savings",
+   "name": "Aspiration-level savings behaviour",
+   "definedIn": [
+    "06XS"
+   ]
+  },
+  {
+   "id": "continuously-rationalizable-demand",
+   "name": "Demand fully rationalized by a continuous preference",
+   "definedIn": [
+    "06XS"
+   ]
+  },
+  {
+   "id": "differentiably-rationalizable-demand",
+   "name": "Demand fully rationalized by a differentiable preference",
+   "definedIn": [
+    "06XS"
+   ]
+  },
+  {
+   "id": "best-element",
+   "name": "Best element of a set (maximal for the preference)",
+   "definedIn": [
+    "7BCJ",
+    "C2KC"
+   ]
+  },
+  {
+   "id": "preference-sequence-convergence",
+   "name": "Convergence of a sequence of preference relations",
+   "definedIn": [
+    "0XBE"
+   ]
+  },
+  {
+   "id": "elasticity-of-substitution",
+   "name": "Elasticity of substitution (MIT 14.121)",
+   "symbol": "\\sigma",
+   "definedIn": [
+    "S9ZZ"
+   ]
+  },
+  {
+   "id": "demand-homogeneous-degree-zero",
+   "name": "Demand homogeneous of degree zero in prices and wealth",
+   "symbol": "x(\\lambda p, \\lambda w) = x(p, w)",
+   "definedIn": [
+    "A62K"
+   ]
+  },
+  {
+   "id": "indirect-scale-invariance",
+   "name": "Indirect preference unchanged by scaling prices and wealth together",
+   "symbol": "(\\lambda p, \\lambda w) \\sim^* (p, w)",
+   "definedIn": [
+    "A62K"
+   ]
+  },
+  {
+   "id": "indirect-price-monotonicity",
+   "name": "Indirect preference weakly decreasing in prices",
+   "definedIn": [
+    "A62K"
+   ]
+  },
+  {
+   "id": "indirect-wealth-monotonicity",
+   "name": "Indirect preference strictly increasing in wealth",
+   "definedIn": [
+    "A62K"
+   ]
+  },
+  {
+   "id": "indirect-preference-continuity",
+   "name": "Continuity of the indirect preference over budget parameters (open strict part)",
+   "definedIn": [
+    "A62K"
+   ]
+  },
+  {
+   "id": "indirect-quasi-convexity",
+   "name": "Quasi-convexity of the indirect preference",
+   "definedIn": [
+    "A62K"
+   ]
+  },
+  {
+   "id": "roy-identity",
+   "name": "Roy's identity",
+   "symbol": "x_k = -\\frac{\\partial v/\\partial p_k}{\\partial v/\\partial w}",
+   "definedIn": [
+    "AWMW"
+   ]
+  },
+  {
+   "id": "homogeneous-degree-zero-in-prices",
+   "name": "Homogeneous of degree zero in prices",
+   "symbol": "f(\\lambda p) = f(p)",
+   "definedIn": [
+    "JHQA",
+    "7KTK"
+   ]
+  },
+  {
+   "id": "homogeneous-degree-one-in-prices",
+   "name": "Homogeneous of degree one in prices",
+   "symbol": "f(\\lambda p) = \\lambda f(p)",
+   "definedIn": [
+    "JHQA",
+    "D14X",
+    "P3TG"
+   ]
+  },
+  {
+   "id": "hicksian-law-of-demand",
+   "name": "Compensated law of demand for the Hicksian demand",
+   "symbol": "(p' - p) \\cdot (h(p',z) - h(p,z)) \\le 0",
+   "definedIn": [
+    "JHQA"
+   ]
+  },
+  {
+   "id": "nondecreasing-in-prices",
+   "name": "Non-decreasing in prices",
+   "definedIn": [
+    "JHQA",
+    "P3TG"
+   ]
+  },
+  {
+   "id": "hicksian-demand-indifferent-to-target",
+   "name": "Hicksian demand indifferent to the target bundle",
+   "symbol": "h(p,z) \\sim z",
+   "definedIn": [
+    "JHQA"
+   ]
+  },
+  {
+   "id": "expenditure-continuity",
+   "name": "Continuity of the expenditure function in prices and target bundle",
+   "definedIn": [
+    "JHQA"
+   ]
+  },
+  {
+   "id": "concave-in-prices",
+   "name": "Concave in prices",
+   "definedIn": [
+    "JHQA",
+    "P3TG"
+   ]
+  },
+  {
+   "id": "supply-continuity",
+   "name": "Continuity of the supply function in prices",
+   "definedIn": [
+    "7KTK"
+   ]
+  },
+  {
+   "id": "law-of-supply",
+   "name": "Law of supply",
+   "symbol": "(p - p') \\cdot (z(p) - z(p')) > 0",
+   "definedIn": [
+    "7KTK"
+   ]
+  },
+  {
+   "id": "profit-function-continuity",
+   "name": "Continuity of the profit function in prices",
+   "definedIn": [
+    "D14X"
+   ]
+  },
+  {
+   "id": "convex-in-prices",
+   "name": "Convex in prices",
+   "definedIn": [
+    "D14X"
+   ]
+  },
+  {
+   "id": "hotelling-lemma",
+   "name": "Hotelling's lemma",
+   "symbol": "\\partial \\pi / \\partial p_k = z_k",
+   "definedIn": [
+    "D14X"
+   ]
+  },
+  {
+   "id": "shephard-lemma",
+   "name": "Shephard's lemma (cost function)",
+   "symbol": "\\partial C / \\partial w_k = a_k",
+   "definedIn": [
+    "P3TG"
+   ]
+  },
+  {
+   "id": "symmetric-input-demand-effects",
+   "name": "Symmetric cross-price effects of input demand",
+   "symbol": "\\partial a_k / \\partial w_j = \\partial a_j / \\partial w_k",
+   "definedIn": [
+    "P3TG"
+   ]
+  },
+  {
+   "id": "parametric-constrained-maximization",
+   "name": "Value function of a parametric equality-constrained maximization",
+   "symbol": "V(a) = \\max_x \\{u(x,a) : g(x,a) = 0\\}",
+   "definedIn": [
+    "H6PS"
+   ]
+  },
+  {
+   "id": "envelope-identity",
+   "name": "Envelope identity",
+   "symbol": "\\partial V / \\partial \\alpha_i = \\partial (u - \\lambda g) / \\partial \\alpha_i",
+   "definedIn": [
+    "H6PS"
+   ]
+  },
+  {
+   "id": "first-order-condition",
+   "name": "First-order condition of the consumer problem",
+   "symbol": "v_k(x^*)/p_k \\ge v_j(x^*)/p_j \\text{ when } x^*_k > 0",
+   "definedIn": [
+    "07JS",
+    "VKQK"
+   ]
+  },
+  {
+   "id": "tangency-condition",
+   "name": "Marginal rate of substitution equals the price ratio",
+   "symbol": "v_k(x^*)/v_j(x^*) = p_k/p_j",
+   "definedIn": [
+    "RAY3"
+   ]
+  },
+  {
+   "id": "extends-to-complete-ordering",
+   "name": "Extendable to a complete ordering",
+   "definedIn": [
+    "R3VM"
+   ]
+  },
+  {
+   "id": "indifference-equivalence",
+   "name": "Indifference is an equivalence relation",
+   "symbol": "\\sim",
+   "definedIn": [
+    "XF6A"
+   ]
+  },
+  {
+   "id": "indifference-partition",
+   "name": "Indifference classes partition the set of alternatives",
+   "symbol": "I(x) = \\{y : y \\sim x\\}",
+   "definedIn": [
+    "C2PW"
+   ]
+  },
+  {
+   "id": "psi-convexity-interior",
+   "name": "Ψ-convexity at interior bundles (a critical ordering in Ψ at every strictly positive bundle)",
+   "symbol": "\\Psi",
+   "definedIn": [
+    "NPWN"
+   ]
+  },
+  {
+   "id": "improvements-are-directions",
+   "name": "Every improvement is an improvement direction",
+   "definedIn": [
+    "2V58"
+   ]
+  },
+  {
+   "id": "positive-vectors-improve",
+   "name": "Strictly positive vectors are improvement directions",
+   "definedIn": [
+    "2V58"
+   ]
+  },
+  {
+   "id": "negated-improvements-worsen",
+   "name": "Negated improvement directions are worsening directions",
+   "symbol": "\\{-d : d \\in D(x)\\} \\subseteq E(x)",
+   "definedIn": [
+    "BWAT"
+   ]
+  },
+  {
+   "id": "worsening-equals-negated-improvement",
+   "name": "Worsening directions are exactly the negated improvement directions",
+   "symbol": "E(x) = \\{-d : d \\in D(x)\\}",
+   "definedIn": [
+    "BWAT"
+   ]
+  },
+  {
+   "id": "average-of-rational-choices",
+   "name": "Average of the choices of two rational consumers",
+   "symbol": "(x^1 + x^2)/2",
+   "definedIn": [
+    "NZYS"
+   ]
+  },
+  {
+   "id": "hicksian-demand-utility-level",
+   "name": "Hicksian demand at a utility level (MIT 14.121)",
+   "symbol": "h(p, \\bar u)",
+   "definedIn": [
+    "B245"
+   ]
+  },
+  {
+   "id": "every-good-has-substitute",
+   "name": "Every good has a Hicksian substitute",
+   "definedIn": [
+    "ZFCH"
+   ]
+  },
+  {
+   "id": "strict-concavity-off-diagonal",
+   "name": "Strict 'concavity' of a preference, for distinct bundles (two goods)",
+   "definedIn": [
+    "XPXN"
+   ]
+  },
+  {
+   "id": "threshold-corner-demand",
+   "name": "All-or-nothing demand for good 1 with a threshold price",
+   "definedIn": [
+    "XPXN"
+   ]
+  },
+  {
+   "id": "contingent-plan-consistency",
+   "name": "Planning in advance agrees with choosing in each contingency",
+   "definedIn": [
+    "K13R"
+   ]
+  },
+  {
+   "id": "segment-intermediate-indifference",
+   "name": "Intermediate indifference along segments",
+   "definedIn": [
+    "CTC0"
+   ]
+  },
+  {
+   "id": "monopoly-pricing",
+   "name": "Monopolist choosing a point of the demand curve to maximize profit",
+   "symbol": "\\max_{(p,q) \\in D} (p - c)\\, q",
+   "definedIn": [
+    "NQ92"
+   ]
+  },
+  {
+   "id": "output-decreasing-in-cost",
+   "name": "Optimal output weakly decreasing in unit cost",
+   "definedIn": [
+    "NQ92"
+   ]
+  },
+  {
+   "id": "unit-capped-demand",
+   "name": "Demand buying up to one unit of good 1, the rest on good 2",
+   "symbol": "x_1 = \\min(1, w/p_1)",
+   "definedIn": [
+    "WFXS"
+   ]
+  },
+  {
+   "id": "at-most-unit-demand",
+   "name": "Demand buying at most one unit of good 1, the rest on good 2",
+   "symbol": "x_1 \\le 1",
+   "definedIn": [
+    "WFXS"
+   ]
+  },
+  {
+   "id": "price-ratio-demand",
+   "name": "Demand whose quantity ratio equals the price ratio, spending all wealth",
+   "symbol": "x_1/x_2 = p_1/p_2,\\ p \\cdot x = w",
+   "definedIn": [
+    "WFXS"
+   ]
+  },
+  {
+   "id": "ordinary-good",
+   "name": "Ordinary good (demand not rising with its own price)",
+   "definedIn": [
+    "JD04"
+   ]
+  }
+ ],
+ "relations": [
+  {
+   "from": [
+    "preference-questionnaire"
+   ],
+   "to": "preference-relation",
+   "type": "equivalent",
+   "conditions": "via the translation map; one-to-one on distinct pairs (the diagonal of f is left unconstrained)",
+   "evidence": "N6ZD",
+   "url": "https://formal-economics.github.io/e/N6ZD/"
+  },
+  {
+   "from": [
+    "kreps-preference"
+   ],
+   "to": "preference-relation",
+   "type": "equivalent",
+   "conditions": "via the mutually inverse maps $x \\succ y := x \\succsim y \\wedge \\neg\\, y \\succsim x$ and $x \\succsim y := \\neg\\, y\\,P\\,x$",
+   "evidence": "RWJP",
+   "url": "https://formal-economics.github.io/e/RWJP/"
+  },
+  {
+   "from": [
+    "menu-property-1"
+   ],
+   "to": "menu-property-2",
+   "type": "not-implies",
+   "conditions": "preferences over the nonempty subsets of a finite set",
+   "evidence": "ZFVR",
+   "url": "https://formal-economics.github.io/e/ZFVR/#part-b-ii"
+  },
+  {
+   "from": [
+    "menu-property-2"
+   ],
+   "to": "menu-property-1",
+   "type": "not-implies",
+   "conditions": "preferences over the nonempty subsets of a finite set",
+   "evidence": "ZFVR",
+   "url": "https://formal-economics.github.io/e/ZFVR/#part-b-iii"
+  },
+  {
+   "from": [
+    "criteria-intersection"
+   ],
+   "to": "asymmetry",
+   "type": "implies",
+   "conditions": "at least one criterion; every criterion is a complete ordering",
+   "evidence": "AMGG",
+   "url": "https://formal-economics.github.io/e/AMGG/#part-1"
+  },
+  {
+   "from": [
+    "criteria-intersection"
+   ],
+   "to": "transitivity",
+   "type": "implies",
+   "conditions": "at least one criterion; every criterion is a complete ordering",
+   "evidence": "AMGG",
+   "url": "https://formal-economics.github.io/e/AMGG/#part-1"
+  },
+  {
+   "from": [
+    "asymmetry",
+    "transitivity"
+   ],
+   "to": "criteria-intersection",
+   "type": "implies",
+   "conditions": "X finite; the criteria are complete orderings whose number is chosen",
+   "evidence": "AMGG",
+   "url": "https://formal-economics.github.io/e/AMGG/#part-3"
+  },
+  {
+   "from": [
+    "preference-relation"
+   ],
+   "to": "utility-representation",
+   "type": "implies",
+   "conditions": "X finite; the utility can be chosen with natural-number values",
+   "evidence": "476N",
+   "url": "https://formal-economics.github.io/e/476N/"
+  },
+  {
+   "from": [
+    "preference-relation"
+   ],
+   "to": "utility-representation",
+   "type": "implies",
+   "conditions": "X countable; the utility can be chosen with values in $(0,1)$",
+   "evidence": "M7M6",
+   "url": "https://formal-economics.github.io/e/M7M6/"
+  },
+  {
+   "from": [
+    "preference-relation"
+   ],
+   "to": "utility-representation",
+   "type": "not-implies",
+   "conditions": "witness: the lexicographic preference on $[0,1]^2$",
+   "evidence": "KTXW",
+   "url": "https://formal-economics.github.io/e/KTXW/"
+  },
+  {
+   "from": [
+    "lexicographic-preference"
+   ],
+   "to": "preference-relation",
+   "type": "implies",
+   "conditions": "induced from any finite tuple of preference relations on X",
+   "evidence": "FD0N",
+   "url": "https://formal-economics.github.io/e/FD0N/"
+  },
+  {
+   "from": [
+    "lexicographic-preference"
+   ],
+   "to": "preference-relation",
+   "type": "implies",
+   "conditions": "the lexicographic relation on $\\mathbb{R}^2$",
+   "evidence": "KFSX",
+   "url": "https://formal-economics.github.io/e/KFSX/"
+  },
+  {
+   "from": [
+    "preference-relation"
+   ],
+   "to": "utility-representation",
+   "type": "not-implies",
+   "conditions": "witness: the lexicographic relation on $\\mathbb{R}^2$",
+   "evidence": "KFSX",
+   "url": "https://formal-economics.github.io/e/KFSX/"
+  },
+  {
+   "from": [
+    "strict-monotonicity-plane"
+   ],
+   "to": "continuity",
+   "type": "not-implies",
+   "conditions": "witness: the lexicographic relation on $\\mathbb{R}^2$, which is complete, reflexive, transitive and strictly monotone",
+   "evidence": "KFSX",
+   "url": "https://formal-economics.github.io/e/KFSX/"
+  },
+  {
+   "from": [
+    "continuity"
+   ],
+   "to": "continuity-closed-graph",
+   "type": "equivalent",
+   "conditions": "X a metric space",
+   "evidence": "FVRM",
+   "url": "https://formal-economics.github.io/e/FVRM/"
+  },
+  {
+   "from": [
+    "continuity"
+   ],
+   "to": "continuity-closed-contours",
+   "type": "equivalent",
+   "conditions": "X a metric space",
+   "evidence": "34FJ",
+   "url": "https://formal-economics.github.io/e/34FJ/"
+  },
+  {
+   "from": [
+    "continuity"
+   ],
+   "to": "continuity-open-strict-contours",
+   "type": "equivalent",
+   "conditions": "X a metric space",
+   "evidence": "34FJ",
+   "url": "https://formal-economics.github.io/e/34FJ/"
+  },
+  {
+   "from": [
+    "utility-representation"
+   ],
+   "to": "continuity",
+   "type": "not-implies",
+   "conditions": "witness on $X = \\mathbb{R}$: $x \\succsim y \\iff \\lfloor x \\rfloor \\ge \\lfloor y \\rfloor$, represented by $\\lfloor\\cdot\\rfloor$ by construction",
+   "evidence": "34FJ",
+   "url": "https://formal-economics.github.io/e/34FJ/"
+  },
+  {
+   "from": [
+    "continuity"
+   ],
+   "to": "continuous-utility-representation",
+   "type": "implies",
+   "conditions": "X a convex subset of $\\mathbb{R}^n$",
+   "evidence": "8CWS",
+   "url": "https://formal-economics.github.io/e/8CWS/"
+  },
+  {
+   "from": [
+    "continuity"
+   ],
+   "to": "continuous-utility-representation",
+   "type": "implies",
+   "conditions": "X a (pre)connected subset of $\\mathbb{R}^n$",
+   "evidence": "8CWS",
+   "url": "https://formal-economics.github.io/e/8CWS/"
+  },
+  {
+   "from": [
+    "preference-relation"
+   ],
+   "to": "integer-valued-utility-representation",
+   "type": "not-implies",
+   "conditions": "X countable",
+   "evidence": "RPYB",
+   "url": "https://formal-economics.github.io/e/RPYB/"
+  },
+  {
+   "from": [
+    "extended-preference"
+   ],
+   "to": "extended-preference-representation",
+   "type": "implies",
+   "conditions": "X finite",
+   "evidence": "1AB2",
+   "url": "https://formal-economics.github.io/e/1AB2/"
+  },
+  {
+   "from": [
+    "epsilon-band-relation"
+   ],
+   "to": "approximately-the-same",
+   "type": "implies",
+   "conditions": "$\\varepsilon > 0$; relations on $[0,1]$",
+   "evidence": "7CFH",
+   "url": "https://formal-economics.github.io/e/7CFH/"
+  },
+  {
+   "from": [
+    "approximately-the-same"
+   ],
+   "to": "epsilon-band-representation",
+   "type": "implies",
+   "conditions": "relations on $[0,1]$; any $\\varepsilon > 0$",
+   "evidence": "7CFH",
+   "url": "https://formal-economics.github.io/e/7CFH/"
+  },
+  {
+   "from": [
+    "induced-choice-function"
+   ],
+   "to": "condition-alpha",
+   "type": "implies",
+   "conditions": "$C_{\\succsim}$ well defined (a unique $\\succsim$-best element in every problem of the domain)",
+   "evidence": "F1QA",
+   "url": "https://formal-economics.github.io/e/F1QA/"
+  },
+  {
+   "from": [
+    "induced-choice-function"
+   ],
+   "to": "rationalizable",
+   "type": "implies",
+   "conditions": "$C_{\\succsim}$ well defined (a unique $\\succsim$-best element in every problem of the domain)",
+   "evidence": "WNQ9",
+   "url": "https://formal-economics.github.io/e/WNQ9/"
+  },
+  {
+   "from": [
+    "condition-alpha"
+   ],
+   "to": "rationalizable",
+   "type": "implies",
+   "conditions": "the domain contains every nonempty subset of X with at most three elements",
+   "evidence": "GEN2",
+   "url": "https://formal-economics.github.io/e/GEN2/"
+  },
+  {
+   "from": [
+    "condition-alpha"
+   ],
+   "to": "rationalizable",
+   "type": "implies",
+   "conditions": "the domain is closed under binary union",
+   "evidence": "BV0K",
+   "url": "https://formal-economics.github.io/e/BV0K/"
+  },
+  {
+   "from": [
+    "satisficing-choice-function"
+   ],
+   "to": "condition-alpha",
+   "type": "implies",
+   "conditions": "O a complete ordering; the procedure well defined on the domain",
+   "evidence": "GPFF",
+   "url": "https://formal-economics.github.io/e/GPFF/"
+  },
+  {
+   "from": [
+    "satisficing-choice-function"
+   ],
+   "to": "rationalizable",
+   "type": "implies",
+   "conditions": "O a complete ordering; the procedure well defined on the domain",
+   "evidence": "0K6Q",
+   "url": "https://formal-economics.github.io/e/0K6Q/"
+  },
+  {
+   "from": [
+    "condition-alpha-correspondence",
+    "condition-beta"
+   ],
+   "to": "rationalizable-correspondence",
+   "type": "implies",
+   "conditions": "the domain contains every nonempty subset of X with at most three elements",
+   "evidence": "VZBB",
+   "url": "https://formal-economics.github.io/e/VZBB/"
+  },
+  {
+   "from": [
+    "condition-alpha-correspondence",
+    "condition-beta"
+   ],
+   "to": "weak-axiom",
+   "type": "equivalent",
+   "conditions": "the domain is closed under nonempty intersections",
+   "evidence": "NRZR",
+   "url": "https://formal-economics.github.io/e/NRZR/"
+  },
+  {
+   "from": [
+    "weak-axiom-default",
+    "default-tendency"
+   ],
+   "to": "default-bias-procedure",
+   "type": "equivalent",
+   "conditions": "X finite",
+   "evidence": "1BD8",
+   "url": "https://formal-economics.github.io/e/1BD8/"
+  },
+  {
+   "from": [
+    "borda-choice"
+   ],
+   "to": "rationalizable-correspondence",
+   "type": "not-implies",
+   "conditions": "some instance with two strict child rankings",
+   "evidence": "WNQ9",
+   "url": "https://formal-economics.github.io/e/WNQ9/"
+  },
+  {
+   "from": [
+    "closest-to-ideal-choice"
+   ],
+   "to": "rationalizable",
+   "type": "implies",
+   "conditions": "every problem has a unique closest alternative to the ideal point",
+   "evidence": "WNQ9",
+   "url": "https://formal-economics.github.io/e/WNQ9/"
+  },
+  {
+   "from": [
+    "median-choice"
+   ],
+   "to": "rationalizable",
+   "type": "not-implies",
+   "conditions": "some instance with a strict ordering O",
+   "evidence": "WNQ9",
+   "url": "https://formal-economics.github.io/e/WNQ9/"
+  },
+  {
+   "from": [
+    "induced-choice-correspondence"
+   ],
+   "to": "path-independence",
+   "type": "implies",
+   "conditions": "$C_{\\succsim}$ nonempty on the domain",
+   "evidence": "XDK6",
+   "url": "https://formal-economics.github.io/e/XDK6/"
+  },
+  {
+   "from": [
+    "path-independence"
+   ],
+   "to": "condition-alpha",
+   "type": "implies",
+   "conditions": "choice functions; the domain contains every nonempty subset of X (added)",
+   "evidence": "XDK6",
+   "url": "https://formal-economics.github.io/e/XDK6/"
+  },
+  {
+   "from": [
+    "path-independence"
+   ],
+   "to": "condition-alpha",
+   "type": "not-implies",
+   "evidence": "XDK6",
+   "url": "https://formal-economics.github.io/e/XDK6/#part-c"
+  },
+  {
+   "from": [
+    "path-independence"
+   ],
+   "to": "rationalizable-correspondence",
+   "type": "not-implies",
+   "evidence": "XDK6",
+   "url": "https://formal-economics.github.io/e/XDK6/"
+  },
+  {
+   "from": [
+    "induced-choice-correspondence"
+   ],
+   "to": "path-independence-closed",
+   "type": "implies",
+   "conditions": "$C_{\\succsim}$ nonempty on the domain; the domain contains every nonempty subset of X (added)",
+   "evidence": "XDK6",
+   "url": "https://formal-economics.github.io/e/XDK6/"
+  },
+  {
+   "from": [
+    "induced-choice-correspondence"
+   ],
+   "to": "path-independence-closed",
+   "type": "not-implies",
+   "evidence": "XDK6",
+   "url": "https://formal-economics.github.io/e/XDK6/#part-a"
+  },
+  {
+   "from": [
+    "path-independence-closed"
+   ],
+   "to": "condition-alpha",
+   "type": "implies",
+   "conditions": "choice functions",
+   "evidence": "XDK6",
+   "url": "https://formal-economics.github.io/e/XDK6/"
+  },
+  {
+   "from": [
+    "path-independence-closed"
+   ],
+   "to": "rationalizable-correspondence",
+   "type": "not-implies",
+   "evidence": "XDK6",
+   "url": "https://formal-economics.github.io/e/XDK6/"
+  },
+  {
+   "from": [
+    "induced-choice-correspondence"
+   ],
+   "to": "path-independence-reading",
+   "type": "implies",
+   "conditions": "$C_{\\succsim}$ nonempty on the domain; the domain contains every nonempty subset of X (added)",
+   "evidence": "XDK6",
+   "url": "https://formal-economics.github.io/e/XDK6/"
+  },
+  {
+   "from": [
+    "path-independence-reading"
+   ],
+   "to": "condition-alpha",
+   "type": "implies",
+   "conditions": "choice functions; the domain contains every nonempty subset of X (added)",
+   "evidence": "XDK6",
+   "url": "https://formal-economics.github.io/e/XDK6/"
+  },
+  {
+   "from": [
+    "path-independence-reading"
+   ],
+   "to": "rationalizable-correspondence",
+   "type": "not-implies",
+   "evidence": "XDK6",
+   "url": "https://formal-economics.github.io/e/XDK6/"
+  },
+  {
+   "from": [
+    "above-median-choice"
+   ],
+   "to": "weak-axiom",
+   "type": "implies",
+   "conditions": "X finite; all nonempty subsets are choice problems",
+   "evidence": "JVT9",
+   "url": "https://formal-economics.github.io/e/JVT9/"
+  },
+  {
+   "from": [
+    "local-median-choice"
+   ],
+   "to": "weak-axiom",
+   "type": "not-implies",
+   "conditions": "X finite; all nonempty subsets are choice problems",
+   "evidence": "JVT9",
+   "url": "https://formal-economics.github.io/e/JVT9/"
+  },
+  {
+   "from": [
+    "two-orderings-choice"
+   ],
+   "to": "weak-axiom",
+   "type": "not-implies",
+   "conditions": "X finite; two strict orderings",
+   "evidence": "JVT9",
+   "url": "https://formal-economics.github.io/e/JVT9/"
+  },
+  {
+   "from": [
+    "most-common-class-choice"
+   ],
+   "to": "rationalizable",
+   "type": "not-implies",
+   "conditions": "finite nonempty menus; a strict ordering and a class map",
+   "evidence": "T821",
+   "url": "https://formal-economics.github.io/e/T821/"
+  },
+  {
+   "from": [
+    "threshold-procedure-a"
+   ],
+   "to": "rationalizable",
+   "type": "not-implies",
+   "conditions": "u and v one-to-one",
+   "evidence": "V990",
+   "url": "https://formal-economics.github.io/e/V990/"
+  },
+  {
+   "from": [
+    "threshold-procedure-b"
+   ],
+   "to": "rationalizable",
+   "type": "implies",
+   "conditions": "u and v one-to-one",
+   "evidence": "V990",
+   "url": "https://formal-economics.github.io/e/V990/"
+  },
+  {
+   "from": [
+    "duplication-invariance"
+   ],
+   "to": "order-invariance",
+   "type": "implies",
+   "evidence": "R058",
+   "url": "https://formal-economics.github.io/e/R058/"
+  },
+  {
+   "from": [
+    "duplication-invariance",
+    "property-i"
+   ],
+   "to": "rationalizable-by-ordering-lists",
+   "type": "equivalent",
+   "conditions": "X finite",
+   "evidence": "R058",
+   "url": "https://formal-economics.github.io/e/R058/#part-c"
+  },
+  {
+   "from": [
+    "property-i"
+   ],
+   "to": "accommodates-longer-list",
+   "type": "not-implies",
+   "conditions": "X finite; u one-to-one",
+   "evidence": "R058",
+   "url": "https://formal-economics.github.io/e/R058/"
+  },
+  {
+   "from": [
+    "lexicographically-rational"
+   ],
+   "to": "reference-point-property",
+   "type": "equivalent",
+   "conditions": "X finite; all nonempty subsets are choice problems",
+   "evidence": "PX4Y",
+   "url": "https://formal-economics.github.io/e/PX4Y/"
+  },
+  {
+   "from": [
+    "wwarp"
+   ],
+   "to": "rationalized-by-rationales",
+   "type": "equivalent",
+   "conditions": "X finite; all nonempty subsets are choice problems",
+   "evidence": "WKQ6",
+   "url": "https://formal-economics.github.io/e/WKQ6/"
+  },
+  {
+   "from": [
+    "warm-glow-choice"
+   ],
+   "to": "wwarp",
+   "type": "implies",
+   "conditions": "X finite; all nonempty subsets are choice problems; $l$ satisfies $s \\succsim_S l(s)$ and $s \\succsim_S s' \\Rightarrow l(s) \\succsim_S l(s')$; a unique most moral and a unique most selfish alternative in every problem",
+   "evidence": "WKQ6",
+   "url": "https://formal-economics.github.io/e/WKQ6/"
+  },
+  {
+   "from": [
+    "warm-glow-choice"
+   ],
+   "to": "rationalized-by-rationales",
+   "type": "implies",
+   "conditions": "X finite; all nonempty subsets are choice problems; $l$ satisfies $s \\succsim_S l(s)$ and $s \\succsim_S s' \\Rightarrow l(s) \\succsim_S l(s')$; a unique most moral and a unique most selfish alternative in every problem",
+   "evidence": "WKQ6",
+   "url": "https://formal-economics.github.io/e/WKQ6/"
+  },
+  {
+   "from": [
+    "luce-choice-axiom"
+   ],
+   "to": "luce-representation",
+   "type": "implies",
+   "conditions": "probabilistic choice functions normalized on every nonempty menu (added)",
+   "evidence": "JRQQ",
+   "url": "https://formal-economics.github.io/e/JRQQ/"
+  },
+  {
+   "from": [
+    "probabilistic-choice-function"
+   ],
+   "to": "luce-choice-axiom",
+   "type": "not-implies",
+   "conditions": "probabilistic choice functions normalized on every nonempty menu (added)",
+   "evidence": "JRQQ",
+   "url": "https://formal-economics.github.io/e/JRQQ/"
+  },
+  {
+   "from": [
+    "monotonicity",
+    "continuity-orthant"
+   ],
+   "to": "continuous-utility-representation",
+   "type": "implies",
+   "conditions": "$X = \\mathbb{R}^K_+$",
+   "evidence": "JADN",
+   "url": "https://formal-economics.github.io/e/JADN/"
+  },
+  {
+   "from": [
+    "convexity"
+   ],
+   "to": "convexity-2",
+   "type": "equivalent",
+   "conditions": "$X = \\mathbb{R}^K_+$",
+   "evidence": "Y2RM",
+   "url": "https://formal-economics.github.io/e/Y2RM/"
+  },
+  {
+   "from": [
+    "convexity"
+   ],
+   "to": "convexity-3",
+   "type": "equivalent",
+   "conditions": "$X = \\mathbb{R}^K_+$",
+   "evidence": "Y2RM",
+   "url": "https://formal-economics.github.io/e/Y2RM/"
+  },
+  {
+   "from": [
+    "convexity-2"
+   ],
+   "to": "convexity-3",
+   "type": "equivalent",
+   "conditions": "$X = \\mathbb{R}^K_+$",
+   "evidence": "Y2RM",
+   "url": "https://formal-economics.github.io/e/Y2RM/"
+  },
+  {
+   "from": [
+    "convexity"
+   ],
+   "to": "quasiconcave-utility",
+   "type": "equivalent",
+   "conditions": "$u$ represents $\\succsim$ on $\\mathbb{R}^K_+$",
+   "evidence": "KKZP",
+   "url": "https://formal-economics.github.io/e/KKZP/"
+  },
+  {
+   "from": [
+    "continuity-real-line",
+    "convexity-real-line"
+   ],
+   "to": "concave-utility-representation",
+   "type": "not-implies",
+   "conditions": "$X = \\mathbb{R}$; the witness is $x \\succsim y \\iff x \\ge y \\text{ or } y \\le 0$, not the printed example, which is not continuous",
+   "evidence": "1P2B",
+   "url": "https://formal-economics.github.io/e/1P2B/"
+  },
+  {
+   "from": [
+    "lambda-convexity"
+   ],
+   "to": "bottom-up-constructible",
+   "type": "equivalent",
+   "conditions": "X finite; every criterion in $\\Lambda$ is a complete ordering",
+   "evidence": "C6DS",
+   "url": "https://formal-economics.github.io/e/C6DS/"
+  },
+  {
+   "from": [
+    "lambda-strict-convexity"
+   ],
+   "to": "single-peaked",
+   "type": "equivalent",
+   "conditions": "$X = [0,1]$; $\\succsim$ continuous; $\\Lambda$ = the increasing and the decreasing ordering",
+   "evidence": "Q5N3",
+   "url": "https://formal-economics.github.io/e/Q5N3/"
+  },
+  {
+   "from": [
+    "psi-convexity"
+   ],
+   "to": "convexity",
+   "type": "implies",
+   "conditions": "$X = \\mathbb{R}^K_+$",
+   "evidence": "NPWN",
+   "url": "https://formal-economics.github.io/e/NPWN/"
+  },
+  {
+   "from": [
+    "continuity-orthant",
+    "strong-monotonicity",
+    "convexity"
+   ],
+   "to": "psi-convexity",
+   "type": "not-implies",
+   "conditions": "$X = \\mathbb{R}^K_+$ with $K \\ge 1$ (witness at $K = 2$)",
+   "evidence": "NPWN",
+   "url": "https://formal-economics.github.io/e/NPWN/"
+  },
+  {
+   "from": [
+    "homotheticity",
+    "continuity-orthant",
+    "monotonicity"
+   ],
+   "to": "homogeneous-utility-representation",
+   "type": "implies",
+   "conditions": "$X = \\mathbb{R}^K_+$",
+   "evidence": "A62M",
+   "url": "https://formal-economics.github.io/e/A62M/"
+  },
+  {
+   "from": [
+    "monotonicity",
+    "continuity-orthant",
+    "strong-monotonicity-commodity-1",
+    "quasi-linearity"
+   ],
+   "to": "quasi-linear-utility-representation",
+   "type": "implies",
+   "conditions": "$X = \\mathbb{R}^K_+$",
+   "evidence": "9RT8",
+   "url": "https://formal-economics.github.io/e/9RT8/"
+  },
+  {
+   "from": [
+    "continuity-orthant",
+    "strong-monotonicity",
+    "quasi-linearity-all"
+   ],
+   "to": "linear-utility-representation",
+   "type": "implies",
+   "conditions": "$X = \\mathbb{R}^K_+$",
+   "evidence": "A7N1",
+   "url": "https://formal-economics.github.io/e/A7N1/"
+  },
+  {
+   "from": [
+    "strong-monotonicity",
+    "quasi-linearity-two-way",
+    "homotheticity"
+   ],
+   "to": "lexicographic-linear",
+   "type": "equivalent",
+   "conditions": "$X = \\mathbb{R}^2_+$; continuity not assumed",
+   "evidence": "N79K",
+   "url": "https://formal-economics.github.io/e/N79K/"
+  },
+  {
+   "from": [
+    "convexity-4"
+   ],
+   "to": "convexity",
+   "type": "equivalent",
+   "conditions": "$X = \\mathbb{R}^2_+$; $\\succsim$ strongly monotone and continuous",
+   "evidence": "N5T6",
+   "url": "https://formal-economics.github.io/e/N5T6/"
+  },
+  {
+   "from": [
+    "separability"
+   ],
+   "to": "condition-s",
+   "type": "implies",
+   "conditions": "$X = \\mathbb{R}^K_+$",
+   "evidence": "KE3Z",
+   "url": "https://formal-economics.github.io/e/KE3Z/#part-a"
+  },
+  {
+   "from": [
+    "separability"
+   ],
+   "to": "hexagon-condition",
+   "type": "implies",
+   "conditions": "$X = \\mathbb{R}^2_+$",
+   "evidence": "KE3Z",
+   "url": "https://formal-economics.github.io/e/KE3Z/#part-b"
+  },
+  {
+   "from": [
+    "condition-s"
+   ],
+   "to": "separability",
+   "type": "not-implies",
+   "conditions": "some $K$; the witness is continuous",
+   "evidence": "KE3Z",
+   "url": "https://formal-economics.github.io/e/KE3Z/#part-c"
+  },
+  {
+   "from": [
+    "lexicographic-preference"
+   ],
+   "to": "differentiability",
+   "type": "not-implies",
+   "conditions": "witness: the lexicographic preference on $\\mathbb{R}^2_+$",
+   "evidence": "BWAT",
+   "url": "https://formal-economics.github.io/e/BWAT/#part-a"
+  },
+  {
+   "from": [
+    "star-condition"
+   ],
+   "to": "flat-indifference-sets",
+   "type": "equivalent",
+   "conditions": "$\\succsim$ monotone, convex and differentiable on $\\mathbb{R}^K_+$",
+   "evidence": "BWAT",
+   "url": "https://formal-economics.github.io/e/BWAT/#part-b"
+  },
+  {
+   "from": [
+    "monotonicity",
+    "convexity",
+    "differentiability"
+   ],
+   "to": "continuity-orthant",
+   "type": "not-implies",
+   "conditions": "$X = \\mathbb{R}^2_+$",
+   "evidence": "BWAT",
+   "url": "https://formal-economics.github.io/e/BWAT/#part-d"
+  },
+  {
+   "from": [
+    "convexity-real-line",
+    "differentiability-line-sign-free"
+   ],
+   "to": "continuity-real-line",
+   "type": "not-implies",
+   "conditions": "$X = \\mathbb{R}$; differentiability with the value function's printed codomain $\\mathbb{R}^K_+$ dropped; under the printed codomain the witness is not differentiable",
+   "evidence": "QH53",
+   "url": "https://formal-economics.github.io/e/QH53/"
+  },
+  {
+   "from": [
+    "lambda-strict-convexity"
+   ],
+   "to": "strict-convexity-unit-interval",
+   "type": "equivalent",
+   "conditions": "$X = [0,1]$; $\\Lambda$ = the increasing and the decreasing ordering",
+   "evidence": "MQ4V",
+   "url": "https://formal-economics.github.io/e/MQ4V/"
+  },
+  {
+   "from": [
+    "convex-upper-contour-sets"
+   ],
+   "to": "convex-strict-upper-contour-sets",
+   "type": "equivalent",
+   "conditions": "$X \\subseteq \\mathbb{R}^n$ convex (added); $\\succsim$ continuous (C1)",
+   "evidence": "Q2AC",
+   "url": "https://formal-economics.github.io/e/Q2AC/"
+  },
+  {
+   "from": [
+    "continuity-orthant"
+   ],
+   "to": "demand-existence",
+   "type": "implies",
+   "conditions": "$X = \\mathbb{R}^K_+$; every consumer problem $B(p,w)$ with $p \\gg 0$, $w > 0$",
+   "evidence": "50HD",
+   "url": "https://formal-economics.github.io/e/50HD/"
+  },
+  {
+   "from": [
+    "convexity"
+   ],
+   "to": "demand-convex-valued",
+   "type": "implies",
+   "conditions": "$X = \\mathbb{R}^K_+$; every consumer problem $B(p,w)$ with $p \\gg 0$, $w > 0$",
+   "evidence": "SSRC",
+   "url": "https://formal-economics.github.io/e/SSRC/"
+  },
+  {
+   "from": [
+    "strict-convexity"
+   ],
+   "to": "demand-uniqueness",
+   "type": "implies",
+   "conditions": "$X = \\mathbb{R}^K_+$; every consumer problem $B(p,w)$ with $p \\gg 0$, $w > 0$",
+   "evidence": "SSRC",
+   "url": "https://formal-economics.github.io/e/SSRC/"
+  },
+  {
+   "from": [
+    "monotonicity"
+   ],
+   "to": "walras-law",
+   "type": "implies",
+   "conditions": "$X = \\mathbb{R}^K_+$; every consumer problem $B(p,w)$ with $p \\gg 0$, $w > 0$",
+   "evidence": "9A46",
+   "url": "https://formal-economics.github.io/e/9A46/"
+  },
+  {
+   "from": [
+    "continuity-orthant"
+   ],
+   "to": "demand-continuity",
+   "type": "implies",
+   "conditions": "$X = \\mathbb{R}^K_+$; the consumer problem has a unique solution $x(p,w)$ at every $p \\gg 0$, $w > 0$",
+   "evidence": "41XD",
+   "url": "https://formal-economics.github.io/e/41XD/"
+  },
+  {
+   "from": [
+    "continuity-orthant"
+   ],
+   "to": "demand-closed-graph",
+   "type": "implies",
+   "conditions": "$X = \\mathbb{R}^K_+$; every consumer problem $B(p,w)$ with $p \\gg 0$, $w > 0$",
+   "evidence": "989H",
+   "url": "https://formal-economics.github.io/e/989H/"
+  },
+  {
+   "from": [
+    "continuity-orthant"
+   ],
+   "to": "demand-upper-semicontinuity",
+   "type": "implies",
+   "conditions": "$X = \\mathbb{R}^K_+$; every consumer problem $B(p,w)$ with $p \\gg 0$, $w > 0$",
+   "evidence": "2GSH",
+   "url": "https://formal-economics.github.io/e/2GSH/#part-b"
+  },
+  {
+   "from": [
+    "walras-law",
+    "weak-axiom-demand"
+   ],
+   "to": "compensated-law-of-demand",
+   "type": "implies",
+   "conditions": "demand functions $x(p,w) \\in B(p,w)$ on $p \\gg 0$, $w > 0$, homogeneous of degree zero",
+   "evidence": "55RK",
+   "url": "https://formal-economics.github.io/e/55RK/"
+  },
+  {
+   "from": [
+    "homotheticity"
+   ],
+   "to": "demand-homogeneous-in-wealth",
+   "type": "implies",
+   "conditions": "$X = \\mathbb{R}^K_+$; the consumer problem has a unique solution $x(p,w)$ at every $p \\gg 0$, $w > 0$",
+   "evidence": "CEM1",
+   "url": "https://formal-economics.github.io/e/CEM1/"
+  },
+  {
+   "from": [
+    "quasi-linear-first-commodity-demand"
+   ],
+   "to": "numeraire-threshold-demand",
+   "type": "equivalent",
+   "conditions": "$X = \\mathbb{R}^2_+$; the consumer is monotone, continuous, strictly convex and quasi-linear in commodity 1; $p_1 > 0$",
+   "evidence": "C0C9",
+   "url": "https://formal-economics.github.io/e/C0C9/"
+  },
+  {
+   "from": [
+    "utility-floor-procedure"
+   ],
+   "to": "rationalizable-demand",
+   "type": "implies",
+   "conditions": "the floor procedure built from a continuous, monotone, strictly convex $\\succsim$ represented by $u$; at budget sets reaching the floor $u^0$",
+   "evidence": "JD04",
+   "url": "https://formal-economics.github.io/e/JD04/#part-c"
+  },
+  {
+   "from": [
+    "utility-floor-procedure"
+   ],
+   "to": "walras-law",
+   "type": "implies",
+   "conditions": "the floor procedure built from a continuous, monotone, strictly convex $\\succsim$ represented by $u$; at budget sets reaching the floor $u^0$",
+   "evidence": "JD04",
+   "url": "https://formal-economics.github.io/e/JD04/#part-d"
+  },
+  {
+   "from": [
+    "utility-floor-procedure"
+   ],
+   "to": "demand-continuity",
+   "type": "implies",
+   "conditions": "the floor procedure built from a continuous, monotone, strictly convex $\\succsim$ represented by $u$; over the budget sets reaching the floor $u^0$",
+   "evidence": "JD04",
+   "url": "https://formal-economics.github.io/e/JD04/#part-f"
+  },
+  {
+   "from": [
+    "giffen-good",
+    "weak-axiom-demand"
+   ],
+   "to": "inferior-good",
+   "type": "implies",
+   "conditions": "demand functions $x(p,w) \\in B(p,w)$ on $p \\gg 0$, $w > 0$, homogeneous of degree zero; Giffen at some $(p,w)$, inferior at some $(p',w')$; WA is an added condition",
+   "evidence": "Z50J",
+   "url": "https://formal-economics.github.io/e/Z50J/"
+  },
+  {
+   "from": [
+    "giffen-good",
+    "fully-rationalizable-demand"
+   ],
+   "to": "inferior-good",
+   "type": "implies",
+   "conditions": "demand functions $x(p,w) \\in B(p,w)$ on $p \\gg 0$, $w > 0$, homogeneous of degree zero; Giffen at some $(p,w)$, inferior at some $(p',w')$; full rationalizability is an added condition",
+   "evidence": "Z50J",
+   "url": "https://formal-economics.github.io/e/Z50J/"
+  },
+  {
+   "from": [
+    "indirect-preference"
+   ],
+   "to": "preference-relation",
+   "type": "implies",
+   "conditions": "$C_{\\succsim}$ well defined on the domain (a unique best element in every problem)",
+   "evidence": "CW2G",
+   "url": "https://formal-economics.github.io/e/CW2G/"
+  },
+  {
+   "from": [
+    "indirect-utility"
+   ],
+   "to": "utility-representation",
+   "type": "implies",
+   "conditions": "$C_{\\succsim}$ well defined on the domain (a unique best element in every problem); $u$ represents $\\succsim$",
+   "evidence": "SKTA",
+   "url": "https://formal-economics.github.io/e/SKTA/"
+  },
+  {
+   "from": [
+    "prime-problem-solution"
+   ],
+   "to": "dual-problem-solution",
+   "type": "equivalent",
+   "conditions": "$X = \\mathbb{R}^K_+$; $\\succsim$ monotone and continuous; $p \\gg 0$, $w^* > 0$; the dual target is $x^*$ itself",
+   "evidence": "CGE7",
+   "url": "https://formal-economics.github.io/e/CGE7/"
+  },
+  {
+   "from": [
+    "convex-technology",
+    "inaction"
+   ],
+   "to": "non-increasing-returns-to-scale",
+   "type": "implies",
+   "evidence": "DD0P",
+   "url": "https://formal-economics.github.io/e/DD0P/"
+  },
+  {
+   "from": [
+    "derived-technology",
+    "concave-production-function"
+   ],
+   "to": "inaction",
+   "type": "implies",
+   "conditions": "$f$ increasing and continuous on the input orthant, $f(0) = 0$",
+   "evidence": "F647",
+   "url": "https://formal-economics.github.io/e/F647/"
+  },
+  {
+   "from": [
+    "derived-technology",
+    "concave-production-function"
+   ],
+   "to": "no-free-lunch",
+   "type": "implies",
+   "conditions": "$f$ increasing and continuous on the input orthant, $f(0) = 0$",
+   "evidence": "F647",
+   "url": "https://formal-economics.github.io/e/F647/"
+  },
+  {
+   "from": [
+    "derived-technology",
+    "concave-production-function"
+   ],
+   "to": "free-disposal",
+   "type": "implies",
+   "conditions": "$f$ increasing and continuous on the input orthant, $f(0) = 0$",
+   "evidence": "F647",
+   "url": "https://formal-economics.github.io/e/F647/"
+  },
+  {
+   "from": [
+    "derived-technology",
+    "concave-production-function"
+   ],
+   "to": "closed-technology",
+   "type": "implies",
+   "conditions": "$f$ increasing and continuous on the input orthant, $f(0) = 0$",
+   "evidence": "F647",
+   "url": "https://formal-economics.github.io/e/F647/"
+  },
+  {
+   "from": [
+    "derived-technology",
+    "concave-production-function"
+   ],
+   "to": "convex-technology",
+   "type": "implies",
+   "conditions": "$f$ increasing and continuous on the input orthant, $f(0) = 0$",
+   "evidence": "F647",
+   "url": "https://formal-economics.github.io/e/F647/"
+  },
+  {
+   "from": [
+    "convex-technology"
+   ],
+   "to": "concave-production-function",
+   "type": "equivalent",
+   "conditions": "$f(v) = \\max\\{x : (-v, x) \\in Z\\}$ on the input orthant and $Z = Z(f)$",
+   "evidence": "VDCT",
+   "url": "https://formal-economics.github.io/e/VDCT/"
+  },
+  {
+   "from": [
+    "monotonicity",
+    "continuity-orthant",
+    "strict-convexity"
+   ],
+   "to": "continuous-hicksian-demand",
+   "type": "implies",
+   "conditions": "$X = \\mathbb{R}^K_+$; $p \\gg 0$",
+   "evidence": "Z1TD",
+   "url": "https://formal-economics.github.io/e/Z1TD/"
+  },
+  {
+   "from": [
+    "normal-good",
+    "monotonicity"
+   ],
+   "to": "area-between-variations",
+   "type": "implies",
+   "conditions": "$X = \\mathbb{R}^2_+$; demand and dual solutions exist; only $p_1$ changes; monotonicity carried from the lecture framing (added)",
+   "evidence": "P1YT",
+   "url": "https://formal-economics.github.io/e/P1YT/#part-b"
+  },
+  {
+   "from": [
+    "quasi-linearity-in-k",
+    "strict-convexity"
+   ],
+   "to": "cv-equals-ev",
+   "type": "implies",
+   "conditions": "$X = \\mathbb{R}^2_+$; quasi-linear in good 2; prime and dual solutions entering either measure interior; strict convexity and $p_2 = p_2'$ are added conditions",
+   "evidence": "P1YT",
+   "url": "https://formal-economics.github.io/e/P1YT/#part-c"
+  },
+  {
+   "from": [
+    "returns-maximizer"
+   ],
+   "to": "rational-producer",
+   "type": "implies",
+   "conditions": "$K = 2$ (one input, one output); any technology; input price $p_1 > 0$",
+   "evidence": "ZF34",
+   "url": "https://formal-economics.github.io/e/ZF34/"
+  },
+  {
+   "from": [
+    "returns-maximizer"
+   ],
+   "to": "rational-producer",
+   "type": "not-implies",
+   "conditions": "at least two inputs and at least one output (added); positive input prices",
+   "evidence": "ZF34",
+   "url": "https://formal-economics.github.io/e/ZF34/"
+  },
+  {
+   "from": [
+    "independence-axiom",
+    "continuity-axiom"
+   ],
+   "to": "expected-utility-representation",
+   "type": "implies",
+   "conditions": "Z finite; preferences over the lotteries L(Z)",
+   "evidence": "VS3J",
+   "url": "https://formal-economics.github.io/e/VS3J/"
+  },
+  {
+   "from": [
+    "continuity",
+    "bet-weak-monotonicity",
+    "bet-additivity"
+   ],
+   "to": "subjective-expected-utility",
+   "type": "equivalent",
+   "conditions": "bets $x \\in \\mathbb{R}^K$ over $K$ states",
+   "evidence": "D094",
+   "url": "https://formal-economics.github.io/e/D094/"
+  },
+  {
+   "from": [
+    "support-size-preference"
+   ],
+   "to": "independence-axiom",
+   "type": "not-implies",
+   "conditions": "Z finite with two distinct prizes (added)",
+   "evidence": "65GY",
+   "url": "https://formal-economics.github.io/e/65GY/#part-a"
+  },
+  {
+   "from": [
+    "support-size-preference"
+   ],
+   "to": "continuity-axiom",
+   "type": "not-implies",
+   "conditions": "Z finite with two distinct prizes (added)",
+   "evidence": "65GY",
+   "url": "https://formal-economics.github.io/e/65GY/#part-a"
+  },
+  {
+   "from": [
+    "most-likely-prize-preference"
+   ],
+   "to": "independence-axiom",
+   "type": "not-implies",
+   "conditions": "Z finite with two distinct prizes (added); some basic preference and tie-breaking selection",
+   "evidence": "65GY",
+   "url": "https://formal-economics.github.io/e/65GY/#part-a"
+  },
+  {
+   "from": [
+    "most-likely-prize-preference"
+   ],
+   "to": "continuity-axiom",
+   "type": "not-implies",
+   "conditions": "Z finite with two distinct prizes (added); some basic preference and tie-breaking selection",
+   "evidence": "65GY",
+   "url": "https://formal-economics.github.io/e/65GY/#part-a"
+  },
+  {
+   "from": [
+    "support-size-preference"
+   ],
+   "to": "immune-to-reframing",
+   "type": "not-implies",
+   "conditions": "some finite Z",
+   "evidence": "65GY",
+   "url": "https://formal-economics.github.io/e/65GY/#part-b"
+  },
+  {
+   "from": [
+    "most-likely-prize-preference"
+   ],
+   "to": "immune-to-reframing",
+   "type": "not-implies",
+   "conditions": "some finite Z, basic preference and tie-breaking selection",
+   "evidence": "65GY",
+   "url": "https://formal-economics.github.io/e/65GY/#part-b"
+  },
+  {
+   "from": [
+    "mean-quarter-variance-preference"
+   ],
+   "to": "vnm-assumptions",
+   "type": "not-implies",
+   "conditions": "some finite set of monetary prizes",
+   "evidence": "2A4D",
+   "url": "https://formal-economics.github.io/e/2A4D/#part-a"
+  },
+  {
+   "from": [
+    "mean-squared-mean-variance-preference"
+   ],
+   "to": "vnm-assumptions",
+   "type": "implies",
+   "conditions": "every finite set of monetary prizes",
+   "evidence": "2A4D",
+   "url": "https://formal-economics.github.io/e/2A4D/#part-b"
+  },
+  {
+   "from": [
+    "vnm-assumptions",
+    "bayesian-updating"
+   ],
+   "to": "time-consistency",
+   "type": "implies",
+   "conditions": "Z finite; every action gives $z^*$ the same probability $\\alpha$ and factors the rest; announcement that $z^*$ will not occur",
+   "evidence": "JMAR",
+   "url": "https://formal-economics.github.io/e/JMAR/#part-a"
+  },
+  {
+   "from": [
+    "bayesian-updating"
+   ],
+   "to": "time-consistency",
+   "type": "not-implies",
+   "conditions": "Problem 4's setup; the witness preference is not of expected-utility form",
+   "evidence": "JMAR",
+   "url": "https://formal-economics.github.io/e/JMAR/#part-b"
+  },
+  {
+   "from": [
+    "vnm-assumptions"
+   ],
+   "to": "time-consistency",
+   "type": "not-implies",
+   "conditions": "Problem 4's setup; the witness does not update by Bayes' rule",
+   "evidence": "JMAR",
+   "url": "https://formal-economics.github.io/e/JMAR/#part-c"
+  },
+  {
+   "from": [
+    "egalitarian-comparison"
+   ],
+   "to": "independence-axiom",
+   "type": "not-implies",
+   "conditions": "some finite set of income levels",
+   "evidence": "GYXY",
+   "url": "https://formal-economics.github.io/e/GYXY/#part-a"
+  },
+  {
+   "from": [
+    "longevity-quality-representation"
+   ],
+   "to": "longevity-quality-conditions",
+   "type": "implies",
+   "conditions": "$v(q) > 0$ for every quality $q \\ge 0$",
+   "evidence": "9E1M",
+   "url": "https://formal-economics.github.io/e/9E1M/#part-a"
+  },
+  {
+   "from": [
+    "expected-utility-representation",
+    "longevity-quality-conditions"
+   ],
+   "to": "longevity-quality-representation",
+   "type": "implies",
+   "conditions": "lotteries over (quality, length of life) prizes",
+   "evidence": "9E1M",
+   "url": "https://formal-economics.github.io/e/9E1M/#part-b"
+  },
+  {
+   "from": [
+    "time-additive-representation"
+   ],
+   "to": "time-allocation-invariance",
+   "type": "implies",
+   "conditions": "finitely many activities",
+   "evidence": "RPWH",
+   "url": "https://formal-economics.github.io/e/RPWH/"
+  },
+  {
+   "from": [
+    "time-additive-representation"
+   ],
+   "to": "concatenation-independence",
+   "type": "implies",
+   "conditions": "finitely many activities",
+   "evidence": "RPWH",
+   "url": "https://formal-economics.github.io/e/RPWH/"
+  },
+  {
+   "from": [
+    "preference-relation"
+   ],
+   "to": "time-additive-representation",
+   "type": "not-implies",
+   "conditions": "schedules over some finite set of activities",
+   "evidence": "RPWH",
+   "url": "https://formal-economics.github.io/e/RPWH/"
+  },
+  {
+   "from": [
+    "fosd"
+   ],
+   "to": "tail-probability-dominance",
+   "type": "equivalent",
+   "conditions": "lotteries with finite support on a prize set $Z \\subseteq \\mathbb{R}$",
+   "evidence": "N24H",
+   "url": "https://formal-economics.github.io/e/N24H/"
+  },
+  {
+   "from": [
+    "fosd"
+   ],
+   "to": "cdf-dominance",
+   "type": "equivalent",
+   "conditions": "lotteries with finite support on a prize set $Z \\subseteq \\mathbb{R}$",
+   "evidence": "N24H",
+   "url": "https://formal-economics.github.io/e/N24H/"
+  },
+  {
+   "from": [
+    "fosd"
+   ],
+   "to": "sosd",
+   "type": "implies",
+   "conditions": "lotteries with finite support on a prize set $Z \\subseteq \\mathbb{R}$",
+   "evidence": "K7S8",
+   "url": "https://formal-economics.github.io/e/K7S8/#part-a"
+  },
+  {
+   "from": [
+    "mean-zero-noise"
+   ],
+   "to": "sosd",
+   "type": "implies",
+   "conditions": "lotteries with finite support on a prize set $Z \\subseteq \\mathbb{R}$; the sum $p + \\varepsilon$ stays in $Z$",
+   "evidence": "K7S8",
+   "url": "https://formal-economics.github.io/e/K7S8/#part-b"
+  },
+  {
+   "from": [
+    "sosd"
+   ],
+   "to": "sosd-partial-sums",
+   "type": "equivalent",
+   "conditions": "lotteries with finite support on a prize set $Z \\subseteq \\mathbb{R}$; $x_0 < \\dots < x_K$ the prizes in $\\mathrm{supp}\\,p \\cup \\mathrm{supp}\\,q$",
+   "evidence": "K7S8",
+   "url": "https://formal-economics.github.io/e/K7S8/#part-c"
+  },
+  {
+   "from": [
+    "risk-aversion"
+   ],
+   "to": "concave-vnm-utility",
+   "type": "equivalent",
+   "conditions": "$Z \\subseteq \\mathbb{R}$ convex; $\\succsim$ on $L(Z)$ represented by $\\mathrm{E}u$ (added)",
+   "evidence": "CQGJ",
+   "url": "https://formal-economics.github.io/e/CQGJ/"
+  },
+  {
+   "from": [
+    "more-risk-averse"
+   ],
+   "to": "more-risk-averse-ce",
+   "type": "equivalent",
+   "conditions": "$Z \\subseteq \\mathbb{R}$ convex (added); $\\succsim_i$ represented by $\\mathrm{E}u_i$ with $u_i$ strictly increasing and continuous on $Z$",
+   "evidence": "VPWC",
+   "url": "https://formal-economics.github.io/e/VPWC/"
+  },
+  {
+   "from": [
+    "more-risk-averse"
+   ],
+   "to": "concave-transform",
+   "type": "equivalent",
+   "conditions": "$Z \\subseteq \\mathbb{R}$ convex (added); $\\succsim_i$ represented by $\\mathrm{E}u_i$ with $u_i$ strictly increasing and continuous on $Z$",
+   "evidence": "VPWC",
+   "url": "https://formal-economics.github.io/e/VPWC/"
+  },
+  {
+   "from": [
+    "more-risk-averse-ce"
+   ],
+   "to": "concave-transform",
+   "type": "equivalent",
+   "conditions": "$Z \\subseteq \\mathbb{R}$ convex (added); $\\succsim_i$ represented by $\\mathrm{E}u_i$ with $u_i$ strictly increasing and continuous on $Z$",
+   "evidence": "VPWC",
+   "url": "https://formal-economics.github.io/e/VPWC/"
+  },
+  {
+   "from": [
+    "monotonic-in-money",
+    "risk-aversion",
+    "invariance-to-wealth"
+   ],
+   "to": "cara-utility",
+   "type": "implies",
+   "conditions": "$Z = \\mathbb{R}$ (added); $\\succsim$ represented by $\\mathrm{E}u$",
+   "evidence": "HEXC",
+   "url": "https://formal-economics.github.io/e/HEXC/"
+  },
+  {
+   "from": [
+    "investment-preference"
+   ],
+   "to": "monotonicity",
+   "type": "implies",
+   "conditions": "$K > 0$ assets with independent returns positive with probability 1; utility of wealth strictly increasing and concave (added)",
+   "evidence": "ASDQ",
+   "url": "https://formal-economics.github.io/e/ASDQ/#part-i"
+  },
+  {
+   "from": [
+    "investment-preference"
+   ],
+   "to": "convexity",
+   "type": "implies",
+   "conditions": "assets with independent returns positive with probability 1; utility of wealth strictly increasing and concave",
+   "evidence": "ASDQ",
+   "url": "https://formal-economics.github.io/e/ASDQ/#part-ii"
+  },
+  {
+   "from": [
+    "dual-expected-utility"
+   ],
+   "to": "preference-relation",
+   "type": "implies",
+   "conditions": "$f : [0,1] \\to [0,1]$ continuous and strictly increasing",
+   "evidence": "CXGA",
+   "url": "https://formal-economics.github.io/e/CXGA/#part-b1"
+  },
+  {
+   "from": [
+    "dual-expected-utility"
+   ],
+   "to": "independence-axiom-monetary",
+   "type": "not-implies",
+   "conditions": "some prize set and some continuous strictly increasing $f : [0,1] \\to [0,1]$",
+   "evidence": "CXGA",
+   "url": "https://formal-economics.github.io/e/CXGA/#part-b2"
+  },
+  {
+   "from": [
+    "pointwise-probability-weighting"
+   ],
+   "to": "fosd-monotone-evaluation",
+   "type": "not-implies",
+   "conditions": "some prize set, some continuous strictly increasing $f : [0,1] \\to [0,1]$ and some strictly increasing utility $u$",
+   "evidence": "CXGA",
+   "url": "https://formal-economics.github.io/e/CXGA/#part-c"
+  },
+  {
+   "from": [
+    "more-risk-averse"
+   ],
+   "to": "readier-to-pay-for-information",
+   "type": "not-implies",
+   "conditions": "two expected-utility agents in Problem 8's information setup",
+   "evidence": "1S2E",
+   "url": "https://formal-economics.github.io/e/1S2E/#part-t1"
+  },
+  {
+   "from": [
+    "pareto",
+    "iia"
+   ],
+   "to": "dictatorial",
+   "type": "implies",
+   "conditions": "finitely many individuals; at least three alternatives; profiles of orderings, social preference relations",
+   "evidence": "2E31",
+   "url": "https://formal-economics.github.io/e/2E31/"
+  },
+  {
+   "from": [
+    "iia"
+   ],
+   "to": "dictatorial",
+   "type": "not-implies",
+   "conditions": "at least three alternatives; at least one individual; the witness (the anti-dictator) violates Par",
+   "evidence": "FJWH",
+   "url": "https://formal-economics.github.io/e/FJWH/"
+  },
+  {
+   "from": [
+    "pareto",
+    "iia"
+   ],
+   "to": "dictatorial",
+   "type": "not-implies",
+   "conditions": "finitely many individuals; exactly two alternatives; at least two individuals (added)",
+   "evidence": "FJWH",
+   "url": "https://formal-economics.github.io/e/FJWH/"
+  },
+  {
+   "from": [
+    "pareto-relational",
+    "iia-relational"
+   ],
+   "to": "dictatorial-relational",
+   "type": "not-implies",
+   "conditions": "finitely many individuals; at least three alternatives; at least two individuals (added); social relation not required to be transitive",
+   "evidence": "FJWH",
+   "url": "https://formal-economics.github.io/e/FJWH/#part-iii"
+  },
+  {
+   "from": [
+    "majority-relation"
+   ],
+   "to": "transitivity",
+   "type": "not-implies",
+   "conditions": "finitely many individuals; at least three alternatives; at least two individuals (added)",
+   "evidence": "FJWH",
+   "url": "https://formal-economics.github.io/e/FJWH/#part-iii"
+  },
+  {
+   "from": [
+    "pareto",
+    "strong-positive-association"
+   ],
+   "to": "dictatorial",
+   "type": "implies",
+   "conditions": "finitely many individuals; at least three alternatives and strong positive association in place of the printed 'monotonicity' (added)",
+   "evidence": "61EJ",
+   "url": "https://formal-economics.github.io/e/61EJ/#part-ms"
+  },
+  {
+   "from": [
+    "pareto",
+    "ms-monotonicity"
+   ],
+   "to": "dictatorial",
+   "type": "not-implies",
+   "evidence": "61EJ",
+   "url": "https://formal-economics.github.io/e/61EJ/#part-ms"
+  },
+  {
+   "from": [
+    "straightforward",
+    "scf-onto"
+   ],
+   "to": "dictatorial-scf",
+   "type": "implies",
+   "conditions": "finitely many individuals; at least three alternatives; the SCF onto X (added)",
+   "evidence": "61EJ",
+   "url": "https://formal-economics.github.io/e/61EJ/#part-gs"
+  },
+  {
+   "from": [
+    "straightforward"
+   ],
+   "to": "dictatorial-scf",
+   "type": "not-implies",
+   "conditions": "any X with at least two alternatives (added)",
+   "evidence": "61EJ",
+   "url": "https://formal-economics.github.io/e/61EJ/#part-gs"
+  },
+  {
+   "from": [
+    "choice-unanimity",
+    "invariance-to-procedure",
+    "iia-choice"
+   ],
+   "to": "choice-dictatorship",
+   "type": "implies",
+   "conditions": "finitely many individuals; at least three alternatives, a domain containing every nonempty finite menu, and IIA for choice (added)",
+   "evidence": "61EJ",
+   "url": "https://formal-economics.github.io/e/61EJ/#part-djl"
+  },
+  {
+   "from": [
+    "choice-unanimity",
+    "invariance-to-procedure"
+   ],
+   "to": "choice-dictatorship",
+   "type": "not-implies",
+   "conditions": "two alternatives, three individuals, all nonempty menus",
+   "evidence": "61EJ",
+   "url": "https://formal-economics.github.io/e/61EJ/#part-djl"
+  },
+  {
+   "from": [
+    "borda-rule"
+   ],
+   "to": "iia",
+   "type": "not-implies",
+   "conditions": "finitely many alternatives, at least three; finitely many individuals, at least two; strictly decreasing Borda weights",
+   "evidence": "44KZ",
+   "url": "https://formal-economics.github.io/e/44KZ/"
+  },
+  {
+   "from": [
+    "majority-rule"
+   ],
+   "to": "anonymity",
+   "type": "implies",
+   "conditions": "exactly two alternatives; finitely many individuals",
+   "evidence": "C9V6",
+   "url": "https://formal-economics.github.io/e/C9V6/#part-b"
+  },
+  {
+   "from": [
+    "majority-rule"
+   ],
+   "to": "neutrality",
+   "type": "implies",
+   "conditions": "exactly two alternatives; finitely many individuals",
+   "evidence": "C9V6",
+   "url": "https://formal-economics.github.io/e/C9V6/#part-b"
+  },
+  {
+   "from": [
+    "majority-rule"
+   ],
+   "to": "positive-responsiveness",
+   "type": "implies",
+   "conditions": "exactly two alternatives; finitely many individuals",
+   "evidence": "C9V6",
+   "url": "https://formal-economics.github.io/e/C9V6/#part-b"
+  },
+  {
+   "from": [
+    "anonymity",
+    "neutrality",
+    "positive-responsiveness"
+   ],
+   "to": "majority-rule",
+   "type": "equivalent",
+   "conditions": "exactly two alternatives; finitely many individuals",
+   "evidence": "C9V6",
+   "url": "https://formal-economics.github.io/e/C9V6/#part-c"
+  },
+  {
+   "from": [
+    "neutrality",
+    "positive-responsiveness"
+   ],
+   "to": "anonymity",
+   "type": "not-implies",
+   "conditions": "exactly two alternatives; some finite society",
+   "evidence": "C9V6",
+   "url": "https://formal-economics.github.io/e/C9V6/#part-d"
+  },
+  {
+   "from": [
+    "anonymity",
+    "positive-responsiveness"
+   ],
+   "to": "neutrality",
+   "type": "not-implies",
+   "conditions": "exactly two alternatives; some finite society",
+   "evidence": "C9V6",
+   "url": "https://formal-economics.github.io/e/C9V6/#part-d"
+  },
+  {
+   "from": [
+    "anonymity",
+    "neutrality"
+   ],
+   "to": "positive-responsiveness",
+   "type": "not-implies",
+   "conditions": "exactly two alternatives; some finite society",
+   "evidence": "C9V6",
+   "url": "https://formal-economics.github.io/e/C9V6/#part-d"
+  },
+  {
+   "from": [
+    "majority-relation",
+    "single-peaked-profile"
+   ],
+   "to": "transitivity",
+   "type": "implies",
+   "conditions": "an odd number of individuals; alternatives in $[0,1]$",
+   "evidence": "YVPG",
+   "url": "https://formal-economics.github.io/e/YVPG/"
+  },
+  {
+   "from": [
+    "recommendation-unanimity",
+    "recommendation-independence"
+   ],
+   "to": "recommendation-dictatorship",
+   "type": "equivalent",
+   "conditions": "at least three alternatives; finitely many individuals",
+   "evidence": "KV0P",
+   "url": "https://formal-economics.github.io/e/KV0P/#part-a"
+  },
+  {
+   "from": [
+    "recommendation-independence"
+   ],
+   "to": "recommendation-dictatorship",
+   "type": "not-implies",
+   "conditions": "at least three alternatives; finitely many individuals",
+   "evidence": "KV0P",
+   "url": "https://formal-economics.github.io/e/KV0P/#part-b"
+  },
+  {
+   "from": [
+    "recommendation-unanimity"
+   ],
+   "to": "recommendation-dictatorship",
+   "type": "not-implies",
+   "conditions": "at least three alternatives; some finite society",
+   "evidence": "KV0P",
+   "url": "https://formal-economics.github.io/e/KV0P/#part-b"
+  },
+  {
+   "from": [
+    "recommendation-unanimity",
+    "recommendation-independence"
+   ],
+   "to": "recommendation-dictatorship",
+   "type": "not-implies",
+   "conditions": "exactly two alternatives; some finite society",
+   "evidence": "KV0P",
+   "url": "https://formal-economics.github.io/e/KV0P/#part-b"
+  },
+  {
+   "from": [
+    "decisive-wrt"
+   ],
+   "to": "almost-decisive-wrt",
+   "type": "implies",
+   "conditions": "finitely many individuals",
+   "evidence": "3TEW",
+   "url": "https://formal-economics.github.io/e/3TEW/#part-note"
+  },
+  {
+   "from": [
+    "almost-decisive-wrt",
+    "pareto",
+    "iia"
+   ],
+   "to": "decisive-wrt",
+   "type": "implies",
+   "conditions": "finitely many individuals; $x \\ne y$ (added); a third alternative $z$; the conclusion is for $(x,z)$ and $(y,z)$",
+   "evidence": "3TEW",
+   "url": "https://formal-economics.github.io/e/3TEW/#part-a"
+  },
+  {
+   "from": [
+    "almost-decisive-wrt",
+    "pareto",
+    "iia"
+   ],
+   "to": "decisive-coalition",
+   "type": "implies",
+   "conditions": "finitely many individuals; $x \\ne y$ and at least three alternatives (added)",
+   "evidence": "3TEW",
+   "url": "https://formal-economics.github.io/e/3TEW/#part-b"
+  },
+  {
+   "from": [
+    "pareto",
+    "iia"
+   ],
+   "to": "decisive-coalition",
+   "type": "implies",
+   "conditions": "finitely many individuals; at least three alternatives (added); the decisive coalition is a singleton",
+   "evidence": "3TEW",
+   "url": "https://formal-economics.github.io/e/3TEW/#part-d"
+  },
+  {
+   "from": [
+    "consensus"
+   ],
+   "to": "membership-independence",
+   "type": "not-implies",
+   "conditions": "a finite society with at least three members",
+   "evidence": "DQ5W",
+   "url": "https://formal-economics.github.io/e/DQ5W/#part-b1"
+  },
+  {
+   "from": [
+    "membership-independence"
+   ],
+   "to": "consensus",
+   "type": "not-implies",
+   "conditions": "a finite society with at least three members",
+   "evidence": "DQ5W",
+   "url": "https://formal-economics.github.io/e/DQ5W/#part-b2"
+  },
+  {
+   "from": [
+    "consensus",
+    "membership-independence"
+   ],
+   "to": "membership-dictatorship",
+   "type": "equivalent",
+   "conditions": "a finite society with at least three members",
+   "evidence": "DQ5W",
+   "url": "https://formal-economics.github.io/e/DQ5W/"
+  },
+  {
+   "from": [
+    "independence-axiom-relation"
+   ],
+   "to": "betweenness-axiom",
+   "type": "implies",
+   "conditions": "binary relations on the lotteries over three outcomes",
+   "evidence": "ZSF9",
+   "url": "https://formal-economics.github.io/e/ZSF9/#part-a"
+  },
+  {
+   "from": [
+    "mixture-continuity-axiom",
+    "betweenness-axiom"
+   ],
+   "to": "straight-indifference-curves",
+   "type": "implies",
+   "conditions": "binary relations on the lotteries over three outcomes",
+   "evidence": "ZSF9",
+   "url": "https://formal-economics.github.io/e/ZSF9/#part-b1"
+  },
+  {
+   "from": [
+    "straight-indifference-curves"
+   ],
+   "to": "betweenness-axiom",
+   "type": "implies",
+   "conditions": "binary relations on the lotteries over three outcomes",
+   "evidence": "ZSF9",
+   "url": "https://formal-economics.github.io/e/ZSF9/#part-b2"
+  },
+  {
+   "from": [
+    "mixture-continuity-axiom",
+    "betweenness-axiom"
+   ],
+   "to": "parallel-indifference-lines",
+   "type": "not-implies",
+   "conditions": "binary relations on the lotteries over three outcomes",
+   "evidence": "ZSF9",
+   "url": "https://formal-economics.github.io/e/ZSF9/#part-b3"
+  },
+  {
+   "from": [
+    "betweenness-axiom"
+   ],
+   "to": "independence-axiom-relation",
+   "type": "not-implies",
+   "conditions": "binary relations on the lotteries over three outcomes",
+   "evidence": "ZSF9",
+   "url": "https://formal-economics.github.io/e/ZSF9/#part-c"
+  },
+  {
+   "from": [
+    "quasi-linearity-first-good",
+    "strict-convexity-mit"
+   ],
+   "to": "no-wealth-effect",
+   "type": "implies",
+   "conditions": "strictly convex preference on the consumption set; prices normalized with $p_1 = 1$; $n \\ge 1$ goods",
+   "evidence": "EQWH",
+   "url": "https://formal-economics.github.io/e/EQWH/"
+  },
+  {
+   "from": [
+    "quasi-linearity-first-good",
+    "strict-convexity-mit"
+   ],
+   "to": "no-utility-effect-hicksian",
+   "type": "implies",
+   "conditions": "strictly convex preference on the consumption set; prices normalized with $p_1 = 1$; $n \\ge 1$ goods; a utility function represents the preference",
+   "evidence": "EQWH",
+   "url": "https://formal-economics.github.io/e/EQWH/"
+  },
+  {
+   "from": [
+    "quasi-linearity-first-good",
+    "strict-convexity-mit"
+   ],
+   "to": "quasi-linear-indirect-utility",
+   "type": "implies",
+   "conditions": "strictly convex preference on the consumption set; prices normalized with $p_1 = 1$; $n \\ge 1$ goods; a utility function represents the preference",
+   "evidence": "EQWH",
+   "url": "https://formal-economics.github.io/e/EQWH/"
+  },
+  {
+   "from": [
+    "quasi-linearity-first-good",
+    "strict-convexity-mit"
+   ],
+   "to": "separable-expenditure",
+   "type": "implies",
+   "conditions": "strictly convex preference on the consumption set; prices normalized with $p_1 = 1$; $n \\ge 1$ goods; a utility function represents the preference",
+   "evidence": "EQWH",
+   "url": "https://formal-economics.github.io/e/EQWH/"
+  },
+  {
+   "from": [
+    "fully-rationalizable-demand"
+   ],
+   "to": "positive-representative-consumer",
+   "type": "not-implies",
+   "conditions": "each consumer's demand is the unique maximizer of a utility function; fixed nonnegative wealth shares summing to one",
+   "evidence": "ZTWY",
+   "url": "https://formal-economics.github.io/e/ZTWY/"
+  },
+  {
+   "from": [
+    "hicksian-substitutes"
+   ],
+   "to": "hicksian-substitutes",
+   "type": "not-implies",
+   "conditions": "the same price vector and utility level, with the two goods exchanged",
+   "evidence": "ZFCH",
+   "url": "https://formal-economics.github.io/e/ZFCH/"
+  },
+  {
+   "from": [
+    "concave-function"
+   ],
+   "to": "increasing-differences",
+   "type": "equivalent",
+   "conditions": "$h$ twice differentiable; increasing differences of $(x,\\theta) \\mapsto h(x - \\theta)$",
+   "evidence": "VHE7",
+   "url": "https://formal-economics.github.io/e/VHE7/"
+  },
+  {
+   "from": [
+    "more-inelastic-demand"
+   ],
+   "to": "log-increasing-differences",
+   "type": "equivalent",
+   "conditions": "demand $Q(p,\\theta)$ decreasing, differentiable and positive in the price on an open interval of prices",
+   "evidence": "DYEK",
+   "url": "https://formal-economics.github.io/e/DYEK/"
+  },
+  {
+   "from": [
+    "log-increasing-differences"
+   ],
+   "to": "monotone-optimal-price",
+   "type": "implies",
+   "conditions": "demand $Q(p,\\theta)$ decreasing, differentiable and positive in the price on an open interval of prices; constant marginal cost $c$; profit $(p - c)\\,Q(p,\\theta)$",
+   "evidence": "DYEK",
+   "url": "https://formal-economics.github.io/e/DYEK/"
+  },
+  {
+   "from": [
+    "concave-demand"
+   ],
+   "to": "concave-profit",
+   "type": "implies",
+   "conditions": "demand $Q(p,\\theta)$ decreasing, differentiable and positive in the price on an open interval of prices; $c$ at most every price in the interval (added)",
+   "evidence": "DYEK",
+   "url": "https://formal-economics.github.io/e/DYEK/"
+  },
+  {
+   "from": [
+    "monotone-optimal-price"
+   ],
+   "to": "concave-demand",
+   "type": "not-implies",
+   "conditions": "demand $Q(p,\\theta)$ decreasing, differentiable and positive in the price on an open interval of prices",
+   "evidence": "DYEK",
+   "url": "https://formal-economics.github.io/e/DYEK/"
+  },
+  {
+   "from": [
+    "increasing-differences-in-skill"
+   ],
+   "to": "monotone-skill-choice",
+   "type": "implies",
+   "conditions": "any cost of skill and any set of skill levels",
+   "evidence": "C2MD",
+   "url": "https://formal-economics.github.io/e/C2MD/"
+  },
+  {
+   "from": [
+    "convexity-euclidean"
+   ],
+   "to": "rr-lambda-convexity",
+   "type": "equivalent",
+   "conditions": "$X \\subseteq \\mathbb{R}^N$ convex and closed; $\\succsim$ continuous (C1); $\\Lambda$ = the algebraic linear orderings $\\Psi$",
+   "evidence": "R0PH",
+   "url": "https://formal-economics.github.io/e/R0PH/"
+  },
+  {
+   "from": [
+    "lambda-convexity"
+   ],
+   "to": "rr-lambda-convexity",
+   "type": "implies",
+   "conditions": "$\\Lambda$ a set of orderings; the book's notion taken at their strict parts",
+   "evidence": "CTK2",
+   "url": "https://formal-economics.github.io/e/CTK2/"
+  },
+  {
+   "from": [
+    "rr-lambda-convexity"
+   ],
+   "to": "lambda-convexity",
+   "type": "not-implies",
+   "conditions": "the book's notion taken at the strict parts of $\\Lambda$; witness: a one-point set with empty $\\Lambda$",
+   "evidence": "CTK2",
+   "url": "https://formal-economics.github.io/e/CTK2/"
+  },
+  {
+   "from": [
+    "lexicographic-preference"
+   ],
+   "to": "preference-relation",
+   "type": "implies",
+   "conditions": "the closed-form lexicographic relation on $[0,1]^2$",
+   "evidence": "B7T6",
+   "url": "https://formal-economics.github.io/e/B7T6/"
+  },
+  {
+   "from": [
+    "utility-representation"
+   ],
+   "to": "utility-representation",
+   "type": "implies",
+   "conditions": "composition with a strictly increasing $f : \\mathbb{R} \\to \\mathbb{R}$",
+   "evidence": "B22E",
+   "url": "https://formal-economics.github.io/e/B22E/"
+  },
+  {
+   "from": [
+    "choice-function"
+   ],
+   "to": "path-independence",
+   "type": "not-implies",
+   "evidence": "XDK6",
+   "url": "https://formal-economics.github.io/e/XDK6/"
+  },
+  {
+   "from": [
+    "most-common-class-choice"
+   ],
+   "to": "complete-ordering",
+   "type": "implies",
+   "conditions": "the relation 'x is chosen from {x, y}', for $x \\ne y$, of the procedure; the underlying ranking a strict ordering; any class map",
+   "evidence": "T821",
+   "url": "https://formal-economics.github.io/e/T821/"
+  },
+  {
+   "from": [
+    "list-choice-function"
+   ],
+   "to": "property-i",
+   "type": "not-implies",
+   "conditions": "some finite grand set",
+   "evidence": "R058",
+   "url": "https://formal-economics.github.io/e/R058/"
+  },
+  {
+   "from": [
+    "utility-floor-procedure"
+   ],
+   "to": "fully-rationalizable-demand",
+   "type": "implies",
+   "conditions": "the floor procedure built from a continuous, monotone, strictly convex $\\succsim$ represented by $u$; at budget sets reaching the floor $u^0$",
+   "evidence": "JD04",
+   "url": "https://formal-economics.github.io/e/JD04/#part-c"
+  },
+  {
+   "from": [
+    "utility-floor-procedure"
+   ],
+   "to": "consistent-with-maximizing",
+   "type": "implies",
+   "conditions": "the floor procedure built from a continuous, monotone, strictly convex $\\succsim$ represented by $u$; at budget sets reaching the floor $u^0$",
+   "evidence": "JD04",
+   "url": "https://formal-economics.github.io/e/JD04/#part-c"
+  },
+  {
+   "from": [
+    "aspiration-savings"
+   ],
+   "to": "fully-rationalizable-demand",
+   "type": "implies",
+   "conditions": "$v$ continuous and strictly concave; only at selections that are the unique maximizers of $v$ over the feasible set (added)",
+   "evidence": "06XS",
+   "url": "https://formal-economics.github.io/e/06XS/#part-a"
+  },
+  {
+   "from": [
+    "aspiration-savings"
+   ],
+   "to": "continuously-rationalizable-demand",
+   "type": "not-implies",
+   "conditions": "some continuous, strictly concave $v$ on $\\mathbb{R}_+$ and aspiration level $v^*$ ($K = 2$); rationalization required only at selections that are the unique maximizers (added)",
+   "evidence": "06XS",
+   "url": "https://formal-economics.github.io/e/06XS/#part-b"
+  },
+  {
+   "from": [
+    "aspiration-savings"
+   ],
+   "to": "differentiably-rationalizable-demand",
+   "type": "not-implies",
+   "conditions": "some continuous, strictly concave $v$ on $\\mathbb{R}_+$ and aspiration level $v^*$ ($K = 2$); rationalization required only at selections that are the unique maximizers (added)",
+   "evidence": "06XS",
+   "url": "https://formal-economics.github.io/e/06XS/#part-c"
+  },
+  {
+   "from": [
+    "decisive-coalition",
+    "pareto",
+    "iia"
+   ],
+   "to": "decisive-coalition",
+   "type": "implies",
+   "conditions": "finitely many individuals; at least three alternatives (added); the coalition has at least two members",
+   "evidence": "3TEW",
+   "url": "https://formal-economics.github.io/e/3TEW/#part-c"
+  },
+  {
+   "from": [
+    "preference-relation"
+   ],
+   "to": "best-element",
+   "type": "implies",
+   "conditions": "every nonempty finite subset of X; a worst element exists as well",
+   "evidence": "7BCJ",
+   "url": "https://formal-economics.github.io/e/7BCJ/"
+  },
+  {
+   "from": [
+    "induced-choice-correspondence"
+   ],
+   "to": "path-independence-reading",
+   "type": "implies",
+   "conditions": "any domain; $C_{\\succsim}$ nonempty on the domain",
+   "evidence": "XDK6",
+   "url": "https://formal-economics.github.io/e/XDK6/"
+  },
+  {
+   "from": [
+    "induced-choice-correspondence"
+   ],
+   "to": "path-independence-reading",
+   "type": "not-implies",
+   "evidence": "XDK6",
+   "url": "https://formal-economics.github.io/e/XDK6/#part-a"
+  },
+  {
+   "from": [
+    "path-independence-reading"
+   ],
+   "to": "condition-alpha",
+   "type": "implies",
+   "conditions": "choice functions; any domain",
+   "evidence": "XDK6",
+   "url": "https://formal-economics.github.io/e/XDK6/"
+  },
+  {
+   "from": [
+    "path-independence-reading"
+   ],
+   "to": "condition-alpha",
+   "type": "implies",
+   "conditions": "choice functions; any domain",
+   "evidence": "XDK6",
+   "url": "https://formal-economics.github.io/e/XDK6/"
+  },
+  {
+   "from": [
+    "path-independence-reading"
+   ],
+   "to": "condition-alpha",
+   "type": "implies",
+   "conditions": "choice functions; any domain",
+   "evidence": "XDK6",
+   "url": "https://formal-economics.github.io/e/XDK6/"
+  },
+  {
+   "from": [
+    "path-independence-reading"
+   ],
+   "to": "condition-alpha",
+   "type": "not-implies",
+   "conditions": "choice functions",
+   "evidence": "XDK6",
+   "url": "https://formal-economics.github.io/e/XDK6/#part-c"
+  },
+  {
+   "from": [
+    "budget-indirect-preference",
+    "demand-homogeneous-degree-zero"
+   ],
+   "to": "indirect-scale-invariance",
+   "type": "implies",
+   "conditions": "$X = \\mathbb{R}^K_+$; $p \\gg 0$, $w > 0$, $\\lambda > 0$",
+   "evidence": "A62K",
+   "url": "https://formal-economics.github.io/e/A62K/"
+  },
+  {
+   "from": [
+    "budget-indirect-preference"
+   ],
+   "to": "indirect-price-monotonicity",
+   "type": "implies",
+   "conditions": "$X = \\mathbb{R}^K_+$; the demand $x(p,w)$ is a $\\succsim$-best bundle of $B(p,w)$ at every $p \\gg 0$, $w > 0$; prices raised componentwise, wealth fixed",
+   "evidence": "A62K",
+   "url": "https://formal-economics.github.io/e/A62K/"
+  },
+  {
+   "from": [
+    "budget-indirect-preference",
+    "monotonicity"
+   ],
+   "to": "indirect-wealth-monotonicity",
+   "type": "implies",
+   "conditions": "$X = \\mathbb{R}^K_+$; the demand $x(p,w)$ is a $\\succsim$-best bundle of $B(p,w)$ at every $p \\gg 0$, $w > 0$",
+   "evidence": "A62K",
+   "url": "https://formal-economics.github.io/e/A62K/"
+  },
+  {
+   "from": [
+    "budget-indirect-preference",
+    "continuity-orthant"
+   ],
+   "to": "indirect-preference-continuity",
+   "type": "implies",
+   "conditions": "$X = \\mathbb{R}^K_+$; the demand $x(p,w)$ is the unique $\\succsim$-best bundle of $B(p,w)$ at every $p \\gg 0$, $w > 0$; Euclidean balls in the parameter space $\\mathbb{R}^{K+1}_{++}$",
+   "evidence": "A62K",
+   "url": "https://formal-economics.github.io/e/A62K/"
+  },
+  {
+   "from": [
+    "budget-indirect-preference"
+   ],
+   "to": "indirect-quasi-convexity",
+   "type": "implies",
+   "conditions": "$X = \\mathbb{R}^K_+$; the demand $x(p,w)$ is a $\\succsim$-best bundle of $B(p,w)$ at every $p \\gg 0$, $w > 0$; $\\lambda \\in [0,1]$",
+   "evidence": "A62K",
+   "url": "https://formal-economics.github.io/e/A62K/"
+  },
+  {
+   "from": [
+    "budget-indirect-preference",
+    "monotonicity"
+   ],
+   "to": "roy-identity",
+   "type": "implies",
+   "conditions": "$X = \\mathbb{R}^K_+$; the demand $x(p,w)$ is a $\\succsim$-best bundle of $B(p,w)$ at every $p \\gg 0$, $w > 0$; $\\succsim^*$ represented on $\\mathbb{R}^{K+1}_{++}$ by $v(p,w)$ with an elementary gradient field; $\\partial v/\\partial w(p^*,w^*) \\ne 0$, needed to write the ratio",
+   "evidence": "AWMW",
+   "url": "https://formal-economics.github.io/e/AWMW/"
+  },
+  {
+   "from": [
+    "hicksian-demand"
+   ],
+   "to": "homogeneous-degree-zero-in-prices",
+   "type": "implies",
+   "conditions": "$X = \\mathbb{R}^K_+$; $p \\gg 0$; the dual problem $D(p,z)$ has a unique solution at each price vector named; $\\lambda > 0$",
+   "evidence": "JHQA",
+   "url": "https://formal-economics.github.io/e/JHQA/"
+  },
+  {
+   "from": [
+    "hicksian-demand"
+   ],
+   "to": "homogeneous-degree-one-in-prices",
+   "type": "implies",
+   "conditions": "$X = \\mathbb{R}^K_+$; $p \\gg 0$; the dual problem $D(p,z)$ has a unique solution at each price vector named; $\\lambda > 0$",
+   "evidence": "JHQA",
+   "url": "https://formal-economics.github.io/e/JHQA/"
+  },
+  {
+   "from": [
+    "hicksian-demand"
+   ],
+   "to": "hicksian-law-of-demand",
+   "type": "implies",
+   "conditions": "$X = \\mathbb{R}^K_+$; $p \\gg 0$; the dual problem $D(p,z)$ has a unique solution at each price vector named",
+   "evidence": "JHQA",
+   "url": "https://formal-economics.github.io/e/JHQA/"
+  },
+  {
+   "from": [
+    "hicksian-demand"
+   ],
+   "to": "nondecreasing-in-prices",
+   "type": "implies",
+   "conditions": "$X = \\mathbb{R}^K_+$; $p \\gg 0$; the dual problem $D(p,z)$ has a unique solution at each price vector named; prices raised componentwise",
+   "evidence": "JHQA",
+   "url": "https://formal-economics.github.io/e/JHQA/"
+  },
+  {
+   "from": [
+    "monotonicity",
+    "continuity-orthant"
+   ],
+   "to": "hicksian-demand-indifferent-to-target",
+   "type": "implies",
+   "conditions": "$X = \\mathbb{R}^K_+$; $p \\gg 0$; the dual problem $D(p,z)$ has a unique solution",
+   "evidence": "JHQA",
+   "url": "https://formal-economics.github.io/e/JHQA/"
+  },
+  {
+   "from": [
+    "monotonicity",
+    "continuity-orthant"
+   ],
+   "to": "continuous-hicksian-demand",
+   "type": "implies",
+   "conditions": "$X = \\mathbb{R}^K_+$; the dual problem has a unique solution at every $(p, z)$ with $p \\gg 0$",
+   "evidence": "JHQA",
+   "url": "https://formal-economics.github.io/e/JHQA/"
+  },
+  {
+   "from": [
+    "monotonicity",
+    "continuity-orthant"
+   ],
+   "to": "expenditure-continuity",
+   "type": "implies",
+   "conditions": "$X = \\mathbb{R}^K_+$; the dual problem has a unique solution at every $(p, z)$ with $p \\gg 0$",
+   "evidence": "JHQA",
+   "url": "https://formal-economics.github.io/e/JHQA/"
+  },
+  {
+   "from": [
+    "hicksian-demand"
+   ],
+   "to": "concave-in-prices",
+   "type": "implies",
+   "conditions": "$X = \\mathbb{R}^K_+$; $p \\gg 0$; the dual problem $D(p,z)$ has a unique solution at each price vector named; $\\lambda \\in [0,1]$",
+   "evidence": "JHQA",
+   "url": "https://formal-economics.github.io/e/JHQA/"
+  },
+  {
+   "from": [
+    "profit-maximization"
+   ],
+   "to": "homogeneous-degree-zero-in-prices",
+   "type": "implies",
+   "conditions": "any technology $Z$; the producer's problem has a unique solution at $p$ and at $\\lambda p$; $\\lambda > 0$",
+   "evidence": "7KTK",
+   "url": "https://formal-economics.github.io/e/7KTK/"
+  },
+  {
+   "from": [
+    "closed-technology",
+    "convex-technology"
+   ],
+   "to": "supply-continuity",
+   "type": "implies",
+   "conditions": "$Z$ bounded above (one bound on every coordinate of every plan); continuity at each price where the producer's problem has a unique solution, relative to such prices",
+   "evidence": "7KTK",
+   "url": "https://formal-economics.github.io/e/7KTK/"
+  },
+  {
+   "from": [
+    "profit-maximization"
+   ],
+   "to": "law-of-supply",
+   "type": "implies",
+   "conditions": "any technology $Z$; the producer's problem has a unique solution at $p$ and at $p'$",
+   "evidence": "7KTK",
+   "url": "https://formal-economics.github.io/e/7KTK/"
+  },
+  {
+   "from": [
+    "profit-maximization"
+   ],
+   "to": "homogeneous-degree-one-in-prices",
+   "type": "implies",
+   "conditions": "any technology $Z$; the maximal profit is attained at $p$ and at $\\lambda p$; $\\lambda > 0$",
+   "evidence": "D14X",
+   "url": "https://formal-economics.github.io/e/D14X/"
+  },
+  {
+   "from": [
+    "closed-technology",
+    "convex-technology"
+   ],
+   "to": "profit-function-continuity",
+   "type": "implies",
+   "conditions": "$Z$ bounded above (one bound on every coordinate of every plan); continuity at each price where the producer's problem has a unique solution, relative to such prices",
+   "evidence": "D14X",
+   "url": "https://formal-economics.github.io/e/D14X/"
+  },
+  {
+   "from": [
+    "profit-maximization"
+   ],
+   "to": "convex-in-prices",
+   "type": "implies",
+   "conditions": "any technology $Z$; the maximal profit is attained at the three price vectors named; $\\lambda \\in [0,1]$",
+   "evidence": "D14X",
+   "url": "https://formal-economics.github.io/e/D14X/"
+  },
+  {
+   "from": [
+    "profit-maximization"
+   ],
+   "to": "hotelling-lemma",
+   "type": "implies",
+   "conditions": "a function equal to $\\pi$ wherever $\\pi$ is defined has an elementary gradient field $g$ at every price; $\\pi$ is defined on a neighbourhood of $p^*$; the supply is unique at $p^*$",
+   "evidence": "D14X",
+   "url": "https://formal-economics.github.io/e/D14X/"
+  },
+  {
+   "from": [
+    "cost-function"
+   ],
+   "to": "homogeneous-degree-one-in-prices",
+   "type": "implies",
+   "conditions": "any technology $Z$; input prices $w \\gg 0$ and $\\lambda w \\gg 0$; the minimal cost is attained at both",
+   "evidence": "P3TG",
+   "url": "https://formal-economics.github.io/e/P3TG/#part-a"
+  },
+  {
+   "from": [
+    "cost-function"
+   ],
+   "to": "nondecreasing-in-prices",
+   "type": "implies",
+   "conditions": "any technology $Z$; only the $k$-th input price rises; no input vector feasible for $y$ uses a negative amount of input $k$ (added); the minimal cost is attained at both prices",
+   "evidence": "P3TG",
+   "url": "https://formal-economics.github.io/e/P3TG/#part-b"
+  },
+  {
+   "from": [
+    "cost-function"
+   ],
+   "to": "concave-in-prices",
+   "type": "implies",
+   "conditions": "any technology $Z$; input prices unrestricted; the minimal cost is attained at the three price vectors named; $\\lambda \\in [0,1]$",
+   "evidence": "P3TG",
+   "url": "https://formal-economics.github.io/e/P3TG/#part-c"
+  },
+  {
+   "from": [
+    "cost-function"
+   ],
+   "to": "shephard-lemma",
+   "type": "implies",
+   "conditions": "any technology $Z$; $C$ is defined near $w$ along the $k$-th input price and has there the partial derivative $c$ in $w_k$; $a$ is a cost-minimizing input vector at $(w, y)$",
+   "evidence": "P3TG",
+   "url": "https://formal-economics.github.io/e/P3TG/#part-d"
+  },
+  {
+   "from": [
+    "cost-function"
+   ],
+   "to": "symmetric-input-demand-effects",
+   "type": "implies",
+   "conditions": "any technology $Z$; $C$ twice continuously differentiable at $w$; the input demand $a(\\cdot)$ is cost-minimizing at every input price near $w$",
+   "evidence": "P3TG",
+   "url": "https://formal-economics.github.io/e/P3TG/#part-e"
+  },
+  {
+   "from": [
+    "parametric-constrained-maximization"
+   ],
+   "to": "envelope-identity",
+   "type": "implies",
+   "conditions": "$x^*(\\alpha)$ maximizes $u(\\cdot, \\alpha)$ subject to $g(\\cdot, \\alpha) = 0$ at every $\\alpha$ and $V(\\alpha) = u(x^*(\\alpha), \\alpha)$; the multiplier condition $\\nabla_x (u - \\lambda g) = 0$ at $(x^*(a), a)$; $u - \\lambda g$ jointly differentiable there and $x^*$ differentiable in $\\alpha_i$ at $a$ (added)",
+   "evidence": "H6PS",
+   "url": "https://formal-economics.github.io/e/H6PS/#part-a"
+  },
+  {
+   "from": [
+    "envelope-identity"
+   ],
+   "to": "roy-identity",
+   "type": "implies",
+   "conditions": "the consumer's problem: objective independent of the parameters $(p, w)$ and constraint $p \\cdot x - w = 0$ (added); positive parameters (added); the multiplier condition at the solution; $\\partial (u - \\lambda g) / \\partial w \\ne 0$ (added)",
+   "evidence": "H6PS",
+   "url": "https://formal-economics.github.io/e/H6PS/#part-b"
+  },
+  {
+   "from": [
+    "prime-problem-solution",
+    "differentiability"
+   ],
+   "to": "first-order-condition",
+   "type": "implies",
+   "conditions": "$X = \\mathbb{R}^K_+$; $\\succsim$ differentiable with value function $v$; $p \\gg 0$, $w > 0$; a consumed commodity $x^*_k > 0$",
+   "evidence": "07JS",
+   "url": "https://formal-economics.github.io/e/07JS/"
+  },
+  {
+   "from": [
+    "prime-problem-solution",
+    "differentiability"
+   ],
+   "to": "tangency-condition",
+   "type": "implies",
+   "conditions": "$X = \\mathbb{R}^K_+$; $\\succsim$ differentiable with value function $v$; $p \\gg 0$, $w > 0$; both $x^*_k > 0$ and $x^*_j > 0$",
+   "evidence": "RAY3",
+   "url": "https://formal-economics.github.io/e/RAY3/"
+  },
+  {
+   "from": [
+    "first-order-condition",
+    "strong-monotonicity",
+    "convexity",
+    "continuity-orthant",
+    "differentiability"
+   ],
+   "to": "prime-problem-solution",
+   "type": "implies",
+   "conditions": "$X = \\mathbb{R}^K_+$; $p \\gg 0$, $w > 0$; $x^*$ on the budget line, $p \\cdot x^* = w$",
+   "evidence": "VKQK",
+   "url": "https://formal-economics.github.io/e/VKQK/"
+  },
+  {
+   "from": [
+    "asymmetry",
+    "acyclicity"
+   ],
+   "to": "extends-to-complete-ordering",
+   "type": "implies",
+   "conditions": "$X$ finite",
+   "evidence": "R3VM",
+   "url": "https://formal-economics.github.io/e/R3VM/"
+  },
+  {
+   "from": [
+    "preference-relation"
+   ],
+   "to": "indifference-partition",
+   "type": "implies",
+   "evidence": "C2PW",
+   "url": "https://formal-economics.github.io/e/C2PW/"
+  },
+  {
+   "from": [
+    "preference-relation"
+   ],
+   "to": "indifference-equivalence",
+   "type": "implies",
+   "evidence": "XF6A",
+   "url": "https://formal-economics.github.io/e/XF6A/"
+  },
+  {
+   "from": [
+    "continuity-orthant",
+    "convexity"
+   ],
+   "to": "psi-convexity-interior",
+   "type": "implies",
+   "conditions": "$X = \\mathbb{R}^K_+$ with $K \\ge 1$ (added); at every bundle with all coordinates positive (added)",
+   "evidence": "NPWN",
+   "url": "https://formal-economics.github.io/e/NPWN/"
+  },
+  {
+   "from": [
+    "strict-convexity"
+   ],
+   "to": "improvements-are-directions",
+   "type": "implies",
+   "conditions": "$X = \\mathbb{R}^K_+$",
+   "evidence": "2V58",
+   "url": "https://formal-economics.github.io/e/2V58/"
+  },
+  {
+   "from": [
+    "strong-monotonicity",
+    "continuity-orthant",
+    "convexity-3"
+   ],
+   "to": "improvements-are-directions",
+   "type": "implies",
+   "conditions": "$X = \\mathbb{R}^K_+$",
+   "evidence": "2V58",
+   "url": "https://formal-economics.github.io/e/2V58/"
+  },
+  {
+   "from": [
+    "monotonicity"
+   ],
+   "to": "positive-vectors-improve",
+   "type": "implies",
+   "conditions": "$X = \\mathbb{R}^K_+$",
+   "evidence": "2V58",
+   "url": "https://formal-economics.github.io/e/2V58/"
+  },
+  {
+   "from": [
+    "monotonicity",
+    "convexity",
+    "differentiability"
+   ],
+   "to": "negated-improvements-worsen",
+   "type": "implies",
+   "conditions": "$X = \\mathbb{R}^K_+$; at bundles with all coordinates positive (added)",
+   "evidence": "BWAT",
+   "url": "https://formal-economics.github.io/e/BWAT/#part-c1"
+  },
+  {
+   "from": [
+    "monotonicity",
+    "convexity",
+    "differentiability"
+   ],
+   "to": "worsening-equals-negated-improvement",
+   "type": "not-implies",
+   "conditions": "witness on $\\mathbb{R}^2_+$: the preference represented by $u(x) = x_1 + \\ln(1 + x_2)$, at $x = (1, 1)$",
+   "evidence": "BWAT",
+   "url": "https://formal-economics.github.io/e/BWAT/#part-c2"
+  },
+  {
+   "from": [
+    "average-of-rational-choices"
+   ],
+   "to": "fully-rationalizable-demand",
+   "type": "not-implies",
+   "conditions": "two consumers with distinct preference relations, each choosing a best bundle from each of two distinct budget sets, the two choices in each set distinct; only the two observed budget sets are asked about",
+   "evidence": "NZYS",
+   "url": "https://formal-economics.github.io/e/NZYS/"
+  },
+  {
+   "from": [
+    "average-of-rational-choices"
+   ],
+   "to": "rationalizable-demand",
+   "type": "not-implies",
+   "conditions": "two consumers with distinct preference relations, each choosing a best bundle from each of two distinct budget sets, the two choices in each set distinct; only the two observed budget sets are asked about",
+   "evidence": "NZYS",
+   "url": "https://formal-economics.github.io/e/NZYS/"
+  },
+  {
+   "from": [
+    "hicksian-demand-utility-level"
+   ],
+   "to": "every-good-has-substitute",
+   "type": "implies",
+   "conditions": "at least two goods, $p \\gg 0$, and the Hicksian demand single-valued near $p$ and differentiable at $p$ (added)",
+   "evidence": "ZFCH",
+   "url": "https://formal-economics.github.io/e/ZFCH/"
+  },
+  {
+   "from": [
+    "hicksian-substitutes"
+   ],
+   "to": "hicksian-substitutes",
+   "type": "not-implies",
+   "conditions": "the same two goods $i \\ne j$ at two different price vectors $p \\ne p'$",
+   "evidence": "ZFCH",
+   "url": "https://formal-economics.github.io/e/ZFCH/"
+  },
+  {
+   "from": [
+    "increasing-differences"
+   ],
+   "to": "increasing-differences",
+   "type": "implies",
+   "conditions": "$f : \\mathbb{R}^2 \\to \\mathbb{R}$; $g : \\mathbb{R} \\to \\mathbb{R}$ non-decreasing",
+   "evidence": "VHE7",
+   "url": "https://formal-economics.github.io/e/VHE7/"
+  },
+  {
+   "from": [
+    "strong-monotonicity",
+    "continuity-orthant",
+    "strict-concavity-off-diagonal"
+   ],
+   "to": "threshold-corner-demand",
+   "type": "implies",
+   "conditions": "$X = \\mathbb{R}^2_+$; $w > 0$ and $p_2 > 0$ fixed; strict concavity required only for distinct bundles (added)",
+   "evidence": "XPXN",
+   "url": "https://formal-economics.github.io/e/XPXN/#part-b"
+  },
+  {
+   "from": [
+    "independence-axiom"
+   ],
+   "to": "contingent-plan-consistency",
+   "type": "implies",
+   "conditions": "$Z$ finite; the menus $\\{L_1, L_2\\}$ and $\\{L_3, L_4\\}$ are reached with probabilities $\\alpha$ and $1 - \\alpha$, $0 < \\alpha < 1$",
+   "evidence": "K13R",
+   "url": "https://formal-economics.github.io/e/K13R/#part-b"
+  },
+  {
+   "from": [
+    "continuity"
+   ],
+   "to": "segment-intermediate-indifference",
+   "type": "implies",
+   "conditions": "$X \\subseteq \\mathbb{R}^n$; the segment from $x$ to $z$ lies in $X$",
+   "evidence": "CTC0",
+   "url": "https://formal-economics.github.io/e/CTC0/"
+  },
+  {
+   "from": [
+    "monopoly-pricing"
+   ],
+   "to": "output-decreasing-in-cost",
+   "type": "implies",
+   "conditions": "any set $D$ of price-quantity points; $q(c)$ any choice of a profit-maximizing output at each unit cost $c$, compared at the costs where it is profit-maximizing",
+   "evidence": "NQ92",
+   "url": "https://formal-economics.github.io/e/NQ92/"
+  },
+  {
+   "from": [
+    "unit-capped-demand"
+   ],
+   "to": "fully-rationalizable-demand",
+   "type": "implies",
+   "conditions": "$K = 2$",
+   "evidence": "WFXS",
+   "url": "https://formal-economics.github.io/e/WFXS/#part-a"
+  },
+  {
+   "from": [
+    "at-most-unit-demand"
+   ],
+   "to": "fully-rationalizable-demand",
+   "type": "not-implies",
+   "conditions": "$K = 2$; demand homogeneous of degree zero",
+   "evidence": "WFXS",
+   "url": "https://formal-economics.github.io/e/WFXS/#part-a"
+  },
+  {
+   "from": [
+    "utility-floor-procedure"
+   ],
+   "to": "ordinary-good",
+   "type": "implies",
+   "conditions": "the floor procedure built from a continuous, monotone, strictly convex $\\succsim$ represented by $u$; good 1; at budget sets reaching the floor $u^0$; only $p_1$ rises",
+   "evidence": "JD04",
+   "url": "https://formal-economics.github.io/e/JD04/#part-e1"
+  },
+  {
+   "from": [
+    "utility-floor-procedure"
+   ],
+   "to": "normal-good",
+   "type": "implies",
+   "conditions": "the floor procedure built from a continuous, monotone, strictly convex $\\succsim$ represented by $u$; good 1; at budget sets reaching the floor $u^0$; only wealth rises",
+   "evidence": "JD04",
+   "url": "https://formal-economics.github.io/e/JD04/#part-e2"
+  },
+  {
+   "from": [
+    "rationalizable"
+   ],
+   "to": "condition-alpha",
+   "type": "implies",
+   "evidence": "F1QA",
+   "url": "https://formal-economics.github.io/e/F1QA/",
+   "derived": true
+  },
+  {
+   "from": [
+    "strict-convexity-unit-interval"
+   ],
+   "to": "single-peaked",
+   "type": "equivalent",
+   "conditions": "$X = [0,1]$; $\\succsim$ continuous",
+   "evidence": "MQ4V",
+   "url": "https://formal-economics.github.io/e/MQ4V/",
+   "derived": true
+  },
+  {
+   "from": [
+    "expected-utility-representation",
+    "longevity-quality-conditions"
+   ],
+   "to": "longevity-quality-representation",
+   "type": "equivalent",
+   "conditions": "lotteries over (quality, length of life) prizes",
+   "evidence": "9E1M",
+   "url": "https://formal-economics.github.io/e/9E1M/#part-a",
+   "derived": true
+  },
+  {
+   "from": [
+    "betweenness-axiom"
+   ],
+   "to": "straight-indifference-curves",
+   "type": "equivalent",
+   "conditions": "binary relations on the lotteries over three outcomes; the relation satisfies the mixture continuity axiom",
+   "evidence": "ZSF9",
+   "url": "https://formal-economics.github.io/e/ZSF9/#part-b1",
+   "derived": true
+  },
+  {
+   "from": [
+    "strict-monotonicity-plane"
+   ],
+   "to": "utility-representation",
+   "type": "not-implies",
+   "conditions": "$X = \\mathbb{R}^2$; witness: the lexicographic relation, which is complete, reflexive and transitive",
+   "evidence": "KFSX",
+   "url": "https://formal-economics.github.io/e/KFSX/",
+   "derived": true
+  },
+  {
+   "from": [
+    "continuity-closed-graph"
+   ],
+   "to": "continuity-closed-contours",
+   "type": "equivalent",
+   "conditions": "X a metric space",
+   "evidence": "FVRM",
+   "url": "https://formal-economics.github.io/e/FVRM/",
+   "derived": true
+  },
+  {
+   "from": [
+    "continuity-closed-graph"
+   ],
+   "to": "continuity-open-strict-contours",
+   "type": "equivalent",
+   "conditions": "X a metric space",
+   "evidence": "FVRM",
+   "url": "https://formal-economics.github.io/e/FVRM/",
+   "derived": true
+  },
+  {
+   "from": [
+    "first-order-condition"
+   ],
+   "to": "prime-problem-solution",
+   "type": "equivalent",
+   "conditions": "$X = \\mathbb{R}^K_+$; $\\succsim$ strongly monotone, convex, continuous and differentiable with value function $v$; $p \\gg 0$, $w > 0$; $x^*$ on the budget line, $p \\cdot x^* = w$",
+   "evidence": "07JS",
+   "url": "https://formal-economics.github.io/e/07JS/",
+   "derived": true
+  }
+ ]
+}
